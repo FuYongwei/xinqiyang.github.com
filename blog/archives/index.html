@@ -9,9 +9,9 @@
   <meta name="author" content="xinqiyang">
 
   
-  <meta name="description" content=" Blog Archive 2013 blog update
+  <meta name="description" content="Blog Archive 2013 blog update
 Nov 05 2013 posted in blog first
-Nov 05 2013 posted in default Recent Posts Blog Update First ">
+Nov 05 2013 posted in default Recent Posts Blog Update First GitHub Repos Status &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -130,7 +130,45 @@ Nov 05 2013 posted in default Recent Posts Blog Update First ">
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/xinqiyang">@xinqiyang</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'xinqiyang',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/xinqiyang?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
 
 
 
@@ -151,6 +189,14 @@ Nov 05 2013 posted in default Recent Posts Blog Update First ">
 
 
 
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
 
 
 
