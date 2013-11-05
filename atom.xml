@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[About xinqiyang]]></title>
+  <link href="http://xinqiyang.github.io/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.github.io/"/>
+  <updated>2013-11-05T19:11:19+09:00</updated>
+  <id>http://xinqiyang.github.io/</id>
+  <author>
+    <name><![CDATA[xinqiyang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[first]]></title>
+    <link href="http://xinqiyang.github.io/blog/2013/11/05/first/"/>
+    <updated>2013-11-05T18:47:00+09:00</updated>
+    <id>http://xinqiyang.github.io/blog/2013/11/05/first</id>
+    <content type="html"><![CDATA[<p>This is My first blog .
+Hi, I am xinqiyang.</p>
+]]></content>
+  </entry>
+  
+</feed>
