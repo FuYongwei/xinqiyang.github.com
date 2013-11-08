@@ -4,7 +4,7 @@
   <title><![CDATA[Category: default | Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.github.io/blog/categories/default/atom.xml" rel="self"/>
   <link href="http://xinqiyang.github.io/"/>
-  <updated>2013-11-07T13:43:41+09:00</updated>
+  <updated>2013-11-08T10:40:33+09:00</updated>
   <id>http://xinqiyang.github.io/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -67,13 +67,17 @@
 <p>这里是一个代码段落</p>
 
 
-<p><code>&lt;?php</p>
+<p>``` php php code
+&lt;?php</p>
 
 <pre><code>echo "hello workd!";   
-?&gt;
 </code></pre>
 
-<p></code></p>
+<p>?>
+```</p>
+
+<p>这里修正了下代码插入的显示.
+使用``` 语言括起来的,效果还是挺好看的.</p>
 
 <p>为什么我这里不显示代码行呢.只要用code标签阔少就可以了吧&hellip;&hellip;..但是不加pre标签,貌似不好看,加了又成空的了&hellip;.</p>
 
