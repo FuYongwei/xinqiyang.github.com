@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: BigData | Xinqiyang's Blog]]></title>
+  <link href="http://xinqiyang.github.io/blog/categories/bigdata/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.github.io/"/>
+  <updated>2013-11-13T18:40:18+09:00</updated>
+  <id>http://xinqiyang.github.io/</id>
+  <author>
+    <name><![CDATA[xinqiyang]]></name>
+    <email><![CDATA[xinqiyang@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[start CDH4.4]]></title>
+    <link href="http://xinqiyang.github.io/blog/2013/11/07/start-cdh4-dot-4/"/>
+    <updated>2013-11-07T16:46:00+09:00</updated>
+    <id>http://xinqiyang.github.io/blog/2013/11/07/start-cdh4-dot-4</id>
+    <content type="html"><![CDATA[<h1>前言</h1>
+
+<p>对于hadoop,hbase由于项目紧张原因好几个月没有时间认真的来总结下了,最近有一些空,就来继续的把项目中用到的一些技术实际的写出来,动动手,好久没有写东西了,都生疏了,说起hadoop,公司还在用相对比较古老的hadoop &amp;&amp; hbase 0.20.* 级别的老版本了,这点充分说明日本人不想折腾,能跑的就好,针对企业用户最主要的是稳定,而且访问量也不是很大,所以关注的不对,但是对于技术发烧友的我来说,当然想尝试新的版本的了,从去年开始就一直关注hadoop2 的beta版本,现在虽然说发布了一个稳定版本,但是大部分还是在沿用老版本,本次说的版本是cloudra公司的 CDH4.4 ,目前最新的稳定版本,本次的目的是想把现有的一些应用迁移到新版本上,而不是在基础的安装和了解.</p>
+
+<h1>配置CDH4.4</h1>
+
+<p>本次不使用安装版本,就直接用了 cloudra已经打包好的虚拟机系统,我选择的是virtualbox的分支,因为在mac上virtualbox是免费开源的,目前来看跑的还算可以.
+下载cdh4.4的地址:
+<a href="http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html">http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html</a></p>
+
+<p>下载下来的虚拟机是2.5G,解压开来就可以了.  <br/>
+开起来机器配置不够的话,还是感觉比较卡的说,这些问题还是有的.</p>
+]]></content>
+  </entry>
+  
+</feed>
