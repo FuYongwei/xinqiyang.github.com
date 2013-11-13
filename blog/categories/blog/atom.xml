@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: blog | Xinqiyang's Blog]]></title>
-  <link href="http://xinqiyang.github.io/blog/categories/blog/atom.xml" rel="self"/>
-  <link href="http://xinqiyang.github.io/"/>
-  <updated>2013-11-13T18:44:08+09:00</updated>
-  <id>http://xinqiyang.github.io/</id>
+  <link href="http://xinqiyang.freeflare.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.freeflare.com/"/>
+  <updated>2013-11-13T18:47:42+09:00</updated>
+  <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
     <email><![CDATA[xinqiyang@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[blog update]]></title>
-    <link href="http://xinqiyang.github.io/blog/2013/11/05/blog-update/"/>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/05/blog-update/"/>
     <updated>2013-11-05T19:14:00+09:00</updated>
-    <id>http://xinqiyang.github.io/blog/2013/11/05/blog-update</id>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/05/blog-update</id>
     <content type="html"><![CDATA[<p>this is my github blog, I will write more aritcle thoses days!</p>
 
 <p>work hard!</p>

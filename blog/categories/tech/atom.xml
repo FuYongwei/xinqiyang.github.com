@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tech | Xinqiyang's Blog]]></title>
-  <link href="http://xinqiyang.github.io/blog/categories/tech/atom.xml" rel="self"/>
-  <link href="http://xinqiyang.github.io/"/>
-  <updated>2013-11-13T18:44:08+09:00</updated>
-  <id>http://xinqiyang.github.io/</id>
+  <link href="http://xinqiyang.freeflare.com/blog/categories/tech/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.freeflare.com/"/>
+  <updated>2013-11-13T18:47:42+09:00</updated>
+  <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
     <email><![CDATA[xinqiyang@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[markdown learn]]></title>
-    <link href="http://xinqiyang.github.io/blog/2013/11/07/markdown-learn/"/>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn/"/>
     <updated>2013-11-07T09:52:00+09:00</updated>
-    <id>http://xinqiyang.github.io/blog/2013/11/07/markdown-learn</id>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn</id>
     <content type="html"><![CDATA[<h1>为什么要学</h1>
 
 <p>从github上学习到很多,慢慢的感觉Markdown很流行,就发了点时间把自己的Github Page捣鼓成一个blog了,用了Octopress搭建了一个,然后用了最近很喜欢的BootStrap3的主题,看过去感觉还是很赞的.<br/>
