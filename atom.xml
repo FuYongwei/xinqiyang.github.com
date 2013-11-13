@@ -4,7 +4,7 @@
   <title><![CDATA[Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.github.io/atom.xml" rel="self"/>
   <link href="http://xinqiyang.github.io/"/>
-  <updated>2013-11-13T18:40:18+09:00</updated>
+  <updated>2013-11-13T18:41:30+09:00</updated>
   <id>http://xinqiyang.github.io/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -41,11 +41,12 @@
 
 <p>Life: 一些絮叨 <br/>
 Tech: 一些技术文章,最近对于lua,redis,nginx的一些实用心得得总结下了.<br/>
-BigData: 一些大数据下的使用 <br/>
+BigData: 一些大数据下的使用  <br/>
+OpenSource: 这里是自己的一些开源项目介绍<br/>
 Product: 产品观念<br/>
-Business: 关于事业和金融方面的,做一些笔记<br/>
+Business: 关于事业和金融方面的,做一些笔记 <br/>
 Japanese: 关于日语的一些文章<br/>
-English: 写一些关于英语的<br/>
+English: 写一些关于英语的 <br/>
 Translation: 翻译的一些文章</p>
 
 <p>这些就够了吧&hellip;&hellip;已经很多了.</p>
