@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tech | Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2013-11-23T22:46:58+09:00</updated>
+  <updated>2013-11-23T22:53:09+09:00</updated>
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -24,6 +24,9 @@
 <p>最近爱上openresty了,倒腾了后端,用Lua重写了第三方模块了,所以将涉及到的第三方模块分享给大家.</p>
 
 <p>Yagami框架整合了以下的第三方模块,用了之后感觉还是挺赞的.</p>
+
+<!--more-->
+
 
 <p>yagami..ko from dependent</p>
 
