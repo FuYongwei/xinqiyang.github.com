@@ -4,7 +4,7 @@
   <title><![CDATA[Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2013-12-04T09:26:17+09:00</updated>
+  <updated>2013-12-04T09:39:51+09:00</updated>
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -185,14 +185,14 @@ Translation: 翻译的一些文章</p>
     <id>http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4</id>
     <content type="html"><![CDATA[<h1>前言</h1>
 
-<p>对于hadoop,hbase由于项目紧张原因好几个月没有时间认真的来总结下了,最近有一些空,就来继续的把项目中用到的一些技术实际的写出来,动动手,好久没有写东西了,都生疏了,说起hadoop,公司还在用相对比较古老的hadoop &amp;&amp; hbase 0.20.* 级别的老版本了,这点充分说明日本人不想折腾,能跑的就好,针对企业用户最主要的是稳定,而且访问量也不是很大,所以关注的不多,但是对于技术发烧友的我来说,当然想尝试新的版本的了,从去年开始就一直关注hadoop2 的beta版本,现在虽然说发布了一个稳定版本,但是大部分还是在沿用老版本,本次说的版本是cloudra公司的 CDH4.4 ,目前最新的稳定版本,本次的目的是想把现有的一些应用迁移到新版本上,而不是在基础的安装和了解.</p>
+<p>对于hadoop,hbase由于项目紧张原因好几个月没有时间认真的来总结下了,最近有一些空,就来继续的把项目中用到的一些技术实际的写出来,动动手,好久没有写东西了,都生疏了,说起hadoop,公司还在用相对比较古老的hadoop &amp;&amp; hbase 0.20.* 级别的老版本了,这点充分说明日本人不想折腾,能跑的就好,针对企业用户最主要的是稳定,而且访问量也不是很大,所以关注的不多,但是对于技术发烧友的我来说,当然想尝试新的版本的了,从去年开始就一直关注hadoop2 的beta版本,现在虽然说发布了一个稳定版本,但是大部分还是在沿用老版本,本次说的版本是cloudera公司的 CDH4.4 ,目前最新的稳定版本,本次的目的是想把现有的一些应用迁移到新版本上,而不是在基础的安装和了解.</p>
 
 <!-- more -->
 
 
 <h1>配置CDH4.4</h1>
 
-<p>本次不使用安装版本,就直接用了 cloudra已经打包好的虚拟机系统,我选择的是virtualbox的分支,因为在mac上virtualbox是免费开源的,目前来看跑的还算可以.
+<p>本次不使用安装版本,就直接用了 cloudera已经打包好的虚拟机系统,我选择的是virtualbox的分支,因为在mac上virtualbox是免费开源的,目前来看跑的还算可以.
 下载cdh4.4的地址:
 <a href="http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html">http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html</a></p>
 
@@ -213,7 +213,7 @@ Translation: 翻译的一些文章</p>
 
 <h1>HBase的操作</h1>
 
-<p>本次不是用默认自带的HBase shell, 使用公司自己开发的HBashShellPro来进行操作演示.
+<p>本次不是用默认自带的HBase shell, 使用公司<a href="http://www.bit-ware.co.jp/">www.bit-ware.co.jp</a>自己开发的HBashShellPro来进行操作演示.
 首先在github上下载HBaseShellPro:  <br/>
 <a href="https://github.com/bit-ware/HBaseShellPro/tree/0.94">https://github.com/bit-ware/HBaseShellPro/tree/0.94</a>
 使用方法:</p>
