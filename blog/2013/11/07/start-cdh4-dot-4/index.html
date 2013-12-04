@@ -146,7 +146,81 @@
 <a href="http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html">http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html</a></p>
 
 <p>下载下来的虚拟机是2.5G,解压开来就可以了.  <br/>
-开起来机器配置不够的话,还是感觉比较卡的说,这些问题还是有的.</p>
+开起来机器配置不够的话,还是感觉比较卡的说,这些问题还是有的.
+启动之后见如下图:</p>
+
+<p><img src="/images/blogimg/start_cdh/cdh_0.png" alt="Alt startcdh" /></p>
+
+<p><img src="/images/blogimg/start_cdh/cdh_00.png" alt="Alt startcdh" /></p>
+
+<p>进入CDH的管理中心页面: <br/>
+<img src="/images/blogimg/start_cdh/cdh_1.png" alt="Alt startcdh" /></p>
+
+<p>帐号和密码都是 cloudera ,  cloudera
+进去之后就可以手动启动 hadoop,hbase了,这里启动后下次开机后这些服务将自动启动了.
+<img src="/images/blogimg/start_cdh/cdh_2.png" alt="Alt startcdh" /></p>
+
+<h1>HBase的操作</h1>
+
+<p>本次不是用默认自带的HBase shell, 使用公司自己开发的HBashShellPro来进行操作演示.
+首先在github上下载HBaseShellPro:  <br/>
+<a href="https://github.com/bit-ware/HBaseShellPro/tree/0.94">https://github.com/bit-ware/HBaseShellPro/tree/0.94</a>
+使用方法:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>wget --no-check-certificate https://github.com/bit-ware/HBaseShellPro/archive/0.94.zip
+</span><span class='line'><span class="nv">$ </span>unzip 0.94
+</span><span class='line'><span class="nv">$ </span>mv HBaseShellPro-0.94 HBaseShellPro
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>HBaseShellPro
+</span><span class='line'><span class="nv">$ </span>vi /etc/hosts    -- add hbase quorum address:  172.17.1.xx  namenode
+</span><span class='line'><span class="nv">$ </span>chmod +x run.rb
+</span><span class='line'><span class="nv">$ </span>./run.rb
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>列出表</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>con , current node
+</span><span class='line'>l , list tables
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="/images/blogimg/start_cdh/cdh_s1.png" alt="Alt startcdh" /></p>
+
+<h2>创建表</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>r 0  , disable <span class="nb">readonly </span>mode
+</span><span class='line'>c tcdh f0 f1   , create table cdh , column family: f0,f1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="/images/blogimg/start_cdh/cdh_s2.png" alt="Alt startcdh" /></p>
+
+<h2>写入和读取测试</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>put tcdh r1 f0  q0  1 ,  write  row  r1
+</span><span class='line'>get tcdh r1  ,  get row r1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="/images/blogimg/start_cdh/cdh_s3.png" alt="Alt startcdh" /></p>
+
+<h1>结语</h1>
+
+<p>本次先写入到这里,验证了环境是正常的.
+使用Cloudera的配置环境省去了配置的修改问题,但是要了解整个过程还是得多读资料,了解实际的组成和系统的流程,以便于更好的了解和使用HBase.</p>
 </div>
 
 
