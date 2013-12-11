@@ -4,7 +4,7 @@
   <title><![CDATA[Category: BigData | Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/blog/categories/bigdata/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2013-12-04T09:39:51+09:00</updated>
+  <updated>2013-12-11T14:27:30+09:00</updated>
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -12,6 +12,75 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[spark on yarn 学习(一)]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/12/11/spark-on-yarn/"/>
+    <updated>2013-12-11T13:48:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/12/11/spark-on-yarn</id>
+    <content type="html"><![CDATA[<p>最近看到明风的关于数据挖掘平台下实用Spark和Yarn来做推荐的PPT,感觉很赞,现在基于大数据和快速计算方面技术的发展很快,随着Apache基金会上发布的一个个项目,感觉真的新技术将会不断出现在大家的面前.</p>
+
+<p>作为技术发烧友,作为一个看客,来围观下,不过从PPT中列出来的技术来看,未来的发展趋势还是说是有的,而且还是很有发展前景的. 现在Spark和Yarn也就发布2年多的时间,随着社区力量的跟上,不断的将之前的项目都放到一个更好的资源架构的整合上来实现.特别是放到内存上来实现,在速度和效率上还是确实有区别于之前的其他技术.所以作为巨头之一的淘宝,就跟上的技术发展的趋势了.但是作为小公司而言,没有这样的大规模的机器部署的情况下,如何用利用好这些技术呢?</p>
+
+<p>下面是PPT中记录的一些笔记和插图.算是对整个架构有一个出不的了解,接下来有时间就努力的去尝试下.</p>
+
+<!-- more -->
+
+
+<p>插上翅膀的大象
+基于Spark on Yarn的淘宝数据挖掘平台</p>
+
+<p>为什么选择Spark On Yarn
+Spark On Yarn的原理和框架
+淘宝在Spark On Yarn上做的工作
+基于Spark On Yarn的数据挖掘平台架构</p>
+
+<p>案例性能</p>
+
+<p>Hadoop在数据挖掘遇到的问题
+多次迭代 <br/>
+中介数据的序列化和反序列化 <br/>
+简单的MR模式 vs 复杂的机器学习算法 <br/>
+OO编程 vs 函数式风格 <br/>
+图计算能力</p>
+
+<p>Why Spark <br/>
+RDD  <br/>
+  内存计算 <br/>
+  快速迭代 <br/>
+  DAG</p>
+
+<p>Scala <br/>
+  FP编程 <br/>
+  Actor编程 <br/>
+  并发能力</p>
+
+<p>Hadoop <br/>
+  MapReduce <br/>
+  HDFS访问</p>
+
+<p>Spark的生态圈
+Shark(Hive),Streaming(Storm),Mllib(Mahout),Graphx(GraphLab)    <br/>
+Spark (MapReduce) <br/>
+Local Standalone Mesos  Yarn
+HDFS    HBASE</p>
+
+<p>Yarn版本0.23.7 目前淘宝部署了 5000 * 2 的架构</p>
+
+<p>Spark On Yarn 的框架   <br/>
+Spark的生态圈 <br/>
+<img src="/images/blogimg/sparkonyarn/sparkonyarn1.png" alt="image" /></p>
+
+<p>Spark On Yarn的实现流程 <br/>
+<img src="/images/blogimg/sparkonyarn/sparkonyarn2.png" alt="image" /></p>
+
+<p>推荐系统的具体架构  <br/>
+<img src="/images/blogimg/sparkonyarn/sparkonyarn3.png" alt="image" /></p>
+
+<p>总结
+粗略的了解下技术架构,接下来有时间的话,深入的实际尝试下,搭建系统跑下svm等,体会下这个系统!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[start CDH4.4]]></title>
