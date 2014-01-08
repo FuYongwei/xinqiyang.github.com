@@ -4,7 +4,7 @@
   <title><![CDATA[Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2013-12-11T14:27:30+09:00</updated>
+  <updated>2014-01-08T18:53:45+09:00</updated>
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -12,6 +12,57 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[迟到的年终总结2013]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013/"/>
+    <updated>2014-01-08T18:38:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013</id>
+    <content type="html"><![CDATA[<h1>迟到的年终总结(2013)</h1>
+
+<p>元旦放假去了趟澳洲回来,就一直忙碌到现在,本来年底的事情就比较多,更是特别坑的事情多. <br/>
+今天终于有小小点时间来写一些总结了.</p>
+
+<p>2013年,一整年时间几乎都在日本度过,也回国过3次,由于家人的原因,现在总算都过去了. <br/>
+2013年,实现了自己的2个愿望,把父母申请来日本,实现了,接下来自己也去了趟澳洲,和弟弟重逢了,家庭的温暖也能够深刻的感觉到. <br/>
+2013年,一年里,Allen也在不断的长大,一岁多的小孩子,现在会到处调皮捣蛋了,时间过的真快,看着宝贝的成长,自己有一种莫名的压力,宝贝长大了.当爹的我更要把重心放到事业上来了!</p>
+
+<p>2013,家庭,工作和自我提升.</p>
+
+<!-- more -->
+
+
+<p></p>
+
+<h3>家庭</h3>
+
+<p>2013年,在日本的日子,感觉非常快,也在慢慢的适应日本人的工作节奏.<br/>
+生活一如既往的如此,有父母的照顾,竟然增重了3公斤,这个已经破了记录了. <br/>
+老婆也开始上班了,为了儿子的未来而努力了.打算买房子,最近东京的房价也涨了不少.
+弟弟那边,过去看了下感觉生活还是可以的.让我感觉可以放下心理的一块石头.</p>
+
+<h3>工作</h3>
+
+<p>在bit-ware的日子里面,有幸得到夏哥的照顾,公司的同事也很nice,真的感觉自己比较幸运,在工作的地方有这么多的nice的人,虽然收入不见咋个涨,但是工作上,现在的现场的氛围还是可以的,虽然公司不大,但是没有那么多的条条框框的束缚.自然就好了很多了.  <br/>
+今天工作上面,主要集中在HBase,Hadoop这块,现在这个公司还在变态着用着0.20.4的老掉牙的版本.但是没有办法也要一直维护者.  <br/>
+自己在今年一年时间里面,也写了几篇关于hadoop,hbase的文章,总算是自己入门吧. <br/>
+在余下的日子里面,主要是学习了一些基本的Ios的操作知识.写个小app,鼓励下自己.</p>
+
+<h3>自我提升</h3>
+
+<p>yagamiko <br/>
+一直以来想做自己喜欢做的事情,就把大部分的时间投入了yagamiko的开发,yagami是基于openresty的一个服务器端框架,用来快速的开发后端.</p>
+
+<p>freeflare
+打算以后的公司叫这个名字,网站的框架也积累起来了,开发上速度相对快了一些.</p>
+
+<p>yibaikuan
+壹佰款项目也在进行中了,这个是自己的一个很努力发展的项目.电子商务方面,总是有市场的,平台不好做,对于小团队更是如此,希望通过自己的努力能把团队带起来.</p>
+
+<p>最后的总结
+展望2014,能够实现自己的愿望!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[spark on yarn 学习(一)]]></title>
