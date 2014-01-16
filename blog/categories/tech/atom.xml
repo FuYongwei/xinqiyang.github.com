@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tech | Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2014-01-16T11:40:55+09:00</updated>
+  <updated>2014-01-16T11:47:29+09:00</updated>
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -96,6 +96,131 @@ ipquery是在lua下查下纯真ip库的一个插件,挺赞的&hellip;&hellip;</p
 这个是云风写的,由于不支持luajit,所以在nginx_lua下失败了&hellip;..</p>
 
 <p>暂时用的就这些,欢迎大家有更好的插件,一起交流!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[markdown learn]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn/"/>
+    <updated>2013-11-07T09:52:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn</id>
+    <content type="html"><![CDATA[<h1>为什么要学</h1>
+
+<p>从github上学习到很多,慢慢的感觉Markdown很流行,就发了点时间把自己的Github Page捣鼓成一个blog了,用了Octopress搭建了一个,然后用了最近很喜欢的BootStrap3的主题,看过去感觉还是很赞的.<br/>
+一直很喜欢简单的感觉,而BootStrap的风格正是我喜欢的,正如Twitter那样的简洁.</p>
+
+<p>回到Markdown,为什么要学习它呢,从今年5月份后就一直很少写博客了,因为一直在用Evernote,将所有自己的东西,或者看到的东西都记录进了Evernote,虽然说它也是很公开的,但是这个公开的内容,很难发布到博客上,所以最近还是捡起了Markdown,继续来写博客吧!</p>
+
+<p>现在用Markdown写东西,用了Mou,感觉这个软件可以可视化的体现,写完的结果,感觉还是挺赞的,推荐使用!</p>
+
+<p> <!--more--></p>
+
+<h1>Markdown的语法</h1>
+
+<h3>标题用类Atx的写法</h3>
+
+<p>感觉类Atx的写法还是挺赞的,###这样的分隔方式,挺容易写的,而且分层上也挺方便.</p>
+
+<p>区块引用</p>
+
+<p>]]&gt;这里是区块引用<br/>
+段落,但是为什么没有出效果呢
+]]&gt;</p>
+
+<p>这个貌似不起作用啊&hellip;.</p>
+
+<h3>列表</h3>
+
+<ul>
+<li>列表1</li>
+<li>列表2</li>
+</ul>
+
+
+<p>列表就是用 * 号加后面的内容的,这个也比较好记.<br/>
+有序列表<br/>
+换行的时候,多写2个空格吧,就好了.
+1. 列表1<br/>
+2. 列表2</p>
+
+<h3>插入html</h3>
+
+<table>
+    <tr> <td>Table td </td> <td> Table td </td> </tr>
+</table>
+
+
+<h3>插入代码</h3>
+
+<p>这里是一个代码段落</p>
+
+
+<p>``` php php code
+&lt;?php</p>
+
+<pre><code>echo "hello workd!";   
+</code></pre>
+
+<p>?>
+```</p>
+
+<p>这里修正了下代码插入的显示.
+使用``` 语言括起来的,效果还是挺好看的.</p>
+
+<p>为什么我这里不显示代码行呢.只要用code标签阔少就可以了吧&hellip;&hellip;..但是不加pre标签,貌似不好看,加了又成空的了&hellip;.</p>
+
+<h3>插入分隔线</h3>
+
+<p>插入 *** 或者 &mdash;&ndash;  然后空格换行,就可以的了.</p>
+
+<hr />
+
+<h3>插入连接</h3>
+
+<p>连接是用<a href=""></a>来隔开的. 如果有title则在里面加上tital &hellip;.
+这里是一个连接 <a href="http://freeflare.com" title="freeflare">freeflare</a> 这个是一个行内链接.
+如果是相对路径可以使用<br/>
+这个是个内部连接<a href="/about/">internal</a> 这个是个内部的连接..
+如果是新窗口打开链接的话,得如何实现呢?</p>
+
+<h3>强调内容</h3>
+
+<p>是用<strong>括起来的.<br/>
+</strong>这里是强调内容**<br/>
+如果都有空白的话<br/>
+* 这个是普通的字符 *</p>
+
+<h3>强调代码</h3>
+
+<p>可以用
+<code>printf("aaaa");</code> 这里就是强调代码了..</p>
+
+<h3>插入图片</h3>
+
+<p>这里是插入一张图片啦.插入图片还是挺简单的 <img src="" alt="Alt" /> 和插入连接差不多.</p>
+
+<p><img src="https://0.gravatar.com/avatar/b9cb8884236148ab30fb8cc71dd1ea3b?d=https%3A%2F%2Fidenticons.github.com%2Fec6623ee830f2a93a270a4f63721b80a.png&amp;r=x&amp;s=140" alt="Alt 插入图片" /></p>
+
+<h3>插入自动连接</h3>
+
+<p>就是用&lt;>来括起来的&hellip;<br/>
+<a href="http://freeflare.com">http://freeflare.com</a> 这里就是一个自动链接的了.</p>
+
+<h3>插入一些特殊字符</h3>
+
+<p>比如 \ ` * _ {} [] () # + &ndash; . ! 等,这些可以随意使用.</p>
+
+<h3>插入摘要</h3>
+
+<p>添加这个就可以了 <!--more--></p>
+
+<h1>结语</h1>
+
+<p>其实Markdown的语法还是很简单易懂的&hellip;开始做页面还有写博客吧&hellip;.其实可以做出自己想要的效果的.
+接下来多写几篇应该就很熟悉的了..
+就是感觉用这个写又回到了用vim写代码的感觉的了.不过还是很赞&hellip;.出来的排版效果还是挺不错的.</p>
+
+<p>简单就是好!</p>
 ]]></content>
   </entry>
   
