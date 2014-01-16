@@ -4,7 +4,11 @@
   <title><![CDATA[Category: blog | Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
+<<<<<<< HEAD
   <updated>2014-01-16T11:40:55+09:00</updated>
+=======
+  <updated>2014-01-16T11:30:48+09:00</updated>
+>>>>>>> 06a6c3fc4dde7ccbfc623fa12f8549f11e238f58
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -109,6 +113,7 @@
   </entry>
   
   <entry>
+<<<<<<< HEAD
     <title type="html"><![CDATA[一些好用的IOS App]]></title>
     <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app/"/>
     <updated>2013-11-13T23:25:00+09:00</updated>
@@ -148,6 +153,8 @@
   </entry>
   
   <entry>
+=======
+>>>>>>> 06a6c3fc4dde7ccbfc623fa12f8549f11e238f58
     <title type="html"><![CDATA[碎碎念]]></title>
     <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/sui-sui-nian/"/>
     <updated>2013-11-13T16:21:00+09:00</updated>
