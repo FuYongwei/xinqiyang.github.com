@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Life | Xinqiyang's Blog]]></title>
+  <title><![CDATA[Category: life | Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/blog/categories/life/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2014-01-08T18:53:45+09:00</updated>
+  <updated>2014-01-16T11:30:48+09:00</updated>
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -14,42 +14,41 @@
 
   
   <entry>
-    <title type="html"><![CDATA[碎碎念]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/sui-sui-nian/"/>
-    <updated>2013-11-13T16:21:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/13/sui-sui-nian</id>
-    <content type="html"><![CDATA[<h1>絮叨下,所以起名叫碎碎念</h1>
+    <title type="html"><![CDATA[一些好用的IOS App]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app/"/>
+    <updated>2013-11-13T23:25:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app</id>
+    <content type="html"><![CDATA[<p>记录下一些感觉好用的APP,软件不用很多,够用就好了.</p>
 
-<p>又重新开始写博客了,从2000年开始都不知道换了多少个博客了,自己的博客也搭建了好几个,但是现在深受github的影响,就又重新开始写blog了.</p>
+<p>最喜欢的软件:</p>
 
-<p>其实很多时候,都没有地方倾诉自己的想法,博客正好能将自己的想法写出来!</p>
+<p>Dropbox</p>
 
-<p>重新开始写后,从TODOLIST中挑出一些有意思的文章来写,这样每天的乐趣也仅此于此了.</p>
+<p>Evernote</p>
 
-<p>上班之间,耍耍微博,看下订阅,现在看的越来越来了,都在完善自己的项目,下班之后,更是&hellip;<br/>
-一天之中,如果都忙起来的话,很快就度过了&hellip;.</p>
+<p>多米音乐</p>
 
-<p>所以在一天之中,是否能留一些什么下来,那就是文字&hellip;.</p>
+<p>WeChat</p>
 
-<p>此前这半年没有怎么写博客是因为都把写的东西放到evernote上了,很多东西不好意思发出来,也就慢慢的沉寂了&hellip;</p>
+<p>Facebook</p>
 
-<p>从博客园到现在的github的博客,主要的好处是,不用浏览器想写就写,和提交代码一样,很符合大家的习惯,所以用的人就越来越多了&hellip;</p>
+<p>Youtube</p>
 
-<p>今天修复了下分类,还有加入了版权声明,加入了TODOLIST,发现每天都能在上面捣鼓些什么.</p>
+<p>Chrome</p>
 
-<p>今天到此了,整理下接下来博客的分类吧.</p>
+<p>Line</p>
 
-<p>Life: 一些絮叨 <br/>
-Tech: 一些技术文章,最近对于lua,redis,nginx的一些实用心得得总结下了.<br/>
-BigData: 一些大数据下的使用  <br/>
-OpenSource: 这里是自己的一些开源项目介绍<br/>
-Product: 产品观念<br/>
-Business: 关于事业和金融方面的,做一些笔记 <br/>
-Japanese: 关于日语的一些文章<br/>
-English: 写一些关于英语的 <br/>
-Translation: 翻译的一些文章</p>
+<p>Google Maps</p>
 
-<p>这些就够了吧&hellip;&hellip;已经很多了.</p>
+<p>Instagram</p>
+
+<p>招商银行</p>
+
+<p>QQ</p>
+
+<p>FreeFlare</p>
+
+<p>咕咚运动,这个今天测试了竟然有bug,发布到微信朋友圈里面,无法加载到具体的跑步信息.</p>
 ]]></content>
   </entry>
   
