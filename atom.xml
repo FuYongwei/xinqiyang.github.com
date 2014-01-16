@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Xinqiyang's Blog]]></title>
+  <link href="http://xinqiyang.freeflare.com/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.freeflare.com/"/>
+  <updated>2014-01-16T11:40:55+09:00</updated>
+  <id>http://xinqiyang.freeflare.com/</id>
+  <author>
+    <name><![CDATA[xinqiyang]]></name>
+    <email><![CDATA[xinqiyang@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[2014年展望]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2014/01/16/2014nian-zhan-wang/"/>
+    <updated>2014-01-16T10:45:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2014/01/16/2014nian-zhan-wang</id>
+    <content type="html"><![CDATA[<h1>展望2014年</h1>
+
+<p>2013年,匆匆的过去了,2014年已经来了,今年想学些什么,做些什么呢?</p>
+
+<p>给自己列一些计划出来,去年,精力主要花在了hadoop,hbase上,这个是因为工作方面的要求. <br/>
+私下里面的时间都花在了yagami框架上了,这里的话主要是自己的api后端框架,虽然写的很烂,但是好歹是跑起来了,起了个好头吧.</p>
+
+<p>2014年对自己的时间精力,得有一个统一的整理了.年末休息的这段时间里面,听到了很多朋友的事情,他们都是有规划有发展的做事情,而且都在努力的进展中,能突破自己的限制. <br/>
+比如,听到一个哥们和他的媳妇一道来日本了,但是打算转战美国.其实现在技术不怎么重要,但是要学习一个技能,首先是语言技能,因为在交流上能突破限制,接下来的才是真正的工作技能,但是这块在进入公司之后是可以去学习的.  <br/>
+现在基本大部分的IT工作者都是能找到工作的.多了语言技能在其他的个个地方,能更好的找到工作,当然生活就不存在问题了.</p>
+
+<p>所以在2014年,第一件重要的事情,就是语言,当前日语和英语,在过去的一年依旧是惨不忍睹!</p>
+
+<h2>语言的威力</h2>
+
+<p>为了能更好的生活,现在越来越认识到,语言的重要性,学习语言必须全身心的投入,现在的精力太分散了.  <br/>
+日语,基本的听说读写,有周さん每周的日语课,还有去川口的ボランティア去和其他的老师交流,提高口语能力. <br/>
+英语,得想着如何学习,现在每天早上都比较晚起来,因为在日本养成了晚睡的习惯,所以这个是修改自己的作息时间,今年去澳洲,感觉自己真的很少开口说,没有说,就很难有交流.所以接下来的重重之中在于这2们语言.</p>
+
+<h2>技术爱好</h2>
+
+<p>对于工作和生活中,其实对于技术的诱惑很多时候难以抵制.虽然公司的工作主要在维护Hadoop,HBase但是做的很多都是比较边缘的工作,没有一个项目能实质性的深入中,然后将整体的项目的个个技术难点能够掌握掉.在加上日本人的守旧,依旧还在实用很老版本的系统,所以在工作时间中,每天也拿出了一些时间来对当前的新版本和新技术,进行更多的思考,现在主要学习的方面,依旧是java方面的内容</p>
+
+<ol>
+<li>Spark 重点学习的部分, 现在使用spark集群和Hadoop,HBase生态圈相关的技术,来实现真正的智能分析,因为智能化的处理是我一直的方向,还有就是机器学习部分的.主要是想在工程上有一个实用的方案,能够直接的改吧改吧下能用在生产上面.</li>
+<li>yagamiko 对于Openresty的内容,最近很少去关注邮件了,所以最近也没啥看,主要是看Openresty的google group里面的大家的内容,今年继续优化下.</li>
+</ol>
+
+
+<h2>壹佰款国际购物项目</h2>
+
+<p>这个是09年一直在做的项目,后来由于种种原因停滞了,到2013年底,又重新启动了,还是回归原始的思想,通过一个项目,把自己想做的东西做出来.真心的去尝试一个项目,从最早的产品思想,到一步一步的实现,最终希望能够上线,让别人来使用这个项目,也算是自己人生的一个Ambition,想做的事情,尽量的能够去做到,而且不断的把它做好,好多时候也可以不计较结局如何.享受这个过程就好了.</p>
+
+<h2>总结</h2>
+
+<p>其实生活简单一些就好了,对自己想要做的事情,尽力去做,尽人事听天命,未雨绸缪,虽然现在会累一些,但是终有一天,自己能达到自己想要的那种生活状态的.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[迟到的年终总结2013]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013/"/>
+    <updated>2014-01-08T18:38:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013</id>
+    <content type="html"><![CDATA[<h1>迟到的年终总结(2013)</h1>
+
+<p>元旦放假去了趟澳洲回来,就一直忙碌到现在,本来年底的事情就比较多,更是特别坑的事情多. <br/>
+今天终于有小小点时间来写一些总结了.</p>
+
+<p>2013年,一整年时间几乎都在日本度过,也回国过3次,由于家人的原因,现在总算都过去了. <br/>
+2013年,实现了自己的2个愿望,把父母申请来日本,实现了,接下来自己也去了趟澳洲,和弟弟重逢了,家庭的温暖也能够深刻的感觉到. <br/>
+2013年,一年里,Allen也在不断的长大,一岁多的小孩子,现在会到处调皮捣蛋了,时间过的真快,看着宝贝的成长,自己有一种莫名的压力,宝贝长大了.当爹的我更要把重心放到事业上来了!</p>
+
+<p>2013,家庭,工作和自我提升.</p>
+
+<!-- more -->
+
+
+<p></p>
+
+<h3>家庭</h3>
+
+<p>2013年,在日本的日子,感觉非常快,也在慢慢的适应日本人的工作节奏.<br/>
+生活一如既往的如此,有父母的照顾,竟然增重了3公斤,这个已经破了记录了. <br/>
+老婆也开始上班了,为了儿子的未来而努力了.打算买房子,最近东京的房价也涨了不少.
+弟弟那边,过去看了下感觉生活还是可以的.让我感觉可以放下心理的一块石头.</p>
+
+<h3>工作</h3>
+
+<p>在bit-ware的日子里面,有幸得到夏哥的照顾,公司的同事也很nice,真的感觉自己比较幸运,在工作的地方有这么多的nice的人,虽然收入不见咋个涨,但是工作上,现在的现场的氛围还是可以的,虽然公司不大,但是没有那么多的条条框框的束缚.自然就好了很多了.  <br/>
+今天工作上面,主要集中在HBase,Hadoop这块,现在这个公司还在变态着用着0.20.4的老掉牙的版本.但是没有办法也要一直维护者.  <br/>
+自己在今年一年时间里面,也写了几篇关于hadoop,hbase的文章,总算是自己入门吧. <br/>
+在余下的日子里面,主要是学习了一些基本的Ios的操作知识.写个小app,鼓励下自己.</p>
+
+<h3>自我提升</h3>
+
+<p>yagamiko <br/>
+一直以来想做自己喜欢做的事情,就把大部分的时间投入了yagamiko的开发,yagami是基于openresty的一个服务器端框架,用来快速的开发后端.</p>
+
+<p>freeflare
+打算以后的公司叫这个名字,网站的框架也积累起来了,开发上速度相对快了一些.</p>
+
+<p>yibaikuan
+壹佰款项目也在进行中了,这个是自己的一个很努力发展的项目.电子商务方面,总是有市场的,平台不好做,对于小团队更是如此,希望通过自己的努力能把团队带起来.</p>
+
+<p>最后的总结
+展望2014,能够实现自己的愿望!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[spark on yarn 学习(一)]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/12/11/spark-on-yarn/"/>
+    <updated>2013-12-11T13:48:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/12/11/spark-on-yarn</id>
+    <content type="html"><![CDATA[<p>最近看到明风的关于数据挖掘平台下实用Spark和Yarn来做推荐的PPT,感觉很赞,现在基于大数据和快速计算方面技术的发展很快,随着Apache基金会上发布的一个个项目,感觉真的新技术将会不断出现在大家的面前.</p>
+
+<p>作为技术发烧友,作为一个看客,来围观下,不过从PPT中列出来的技术来看,未来的发展趋势还是说是有的,而且还是很有发展前景的. 现在Spark和Yarn也就发布2年多的时间,随着社区力量的跟上,不断的将之前的项目都放到一个更好的资源架构的整合上来实现.特别是放到内存上来实现,在速度和效率上还是确实有区别于之前的其他技术.所以作为巨头之一的淘宝,就跟上的技术发展的趋势了.但是作为小公司而言,没有这样的大规模的机器部署的情况下,如何用利用好这些技术呢?</p>
+
+<p>下面是PPT中记录的一些笔记和插图.算是对整个架构有一个出不的了解,接下来有时间就努力的去尝试下.</p>
+
+<!-- more -->
+
+
+<p>插上翅膀的大象
+基于Spark on Yarn的淘宝数据挖掘平台</p>
+
+<p>为什么选择Spark On Yarn
+Spark On Yarn的原理和框架
+淘宝在Spark On Yarn上做的工作
+基于Spark On Yarn的数据挖掘平台架构</p>
+
+<p>案例性能</p>
+
+<p>Hadoop在数据挖掘遇到的问题
+多次迭代 <br/>
+中介数据的序列化和反序列化 <br/>
+简单的MR模式 vs 复杂的机器学习算法 <br/>
+OO编程 vs 函数式风格 <br/>
+图计算能力</p>
+
+<p>Why Spark <br/>
+RDD  <br/>
+  内存计算 <br/>
+  快速迭代 <br/>
+  DAG</p>
+
+<p>Scala <br/>
+  FP编程 <br/>
+  Actor编程 <br/>
+  并发能力</p>
+
+<p>Hadoop <br/>
+  MapReduce <br/>
+  HDFS访问</p>
+
+<p>Spark的生态圈
+Shark(Hive),Streaming(Storm),Mllib(Mahout),Graphx(GraphLab)    <br/>
+Spark (MapReduce) <br/>
+Local Standalone Mesos  Yarn
+HDFS    HBASE</p>
+
+<p>Yarn版本0.23.7 目前淘宝部署了 5000 * 2 的架构</p>
+
+<p>Spark On Yarn 的框架   <br/>
+Spark的生态圈 <br/>
+<img src="http://xinqiyang.freeflare.com/images/blogimg/sparkonyarn/sparkonyarn1.png" alt="image" /></p>
+
+<p>Spark On Yarn的实现流程 <br/>
+<img src="http://xinqiyang.freeflare.com/images/blogimg/sparkonyarn/sparkonyarn2.png" alt="image" /></p>
+
+<p>推荐系统的具体架构  <br/>
+<img src="http://xinqiyang.freeflare.com/images/blogimg/sparkonyarn/sparkonyarn3.png" alt="image" /></p>
+
+<p>总结
+粗略的了解下技术架构,接下来有时间的话,深入的实际尝试下,搭建系统跑下svm等,体会下这个系统!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[openresty third party modules]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/23/openresty-third-party-modules/"/>
+    <updated>2013-11-23T22:26:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/23/openresty-third-party-modules</id>
+    <content type="html"><![CDATA[<p>openresty 第三方模块列表
+这个是YagamiFramework(八神框架)系列文章的一部分,有遇到好的插件,我会持续的更新这篇文章的.</p>
+
+<p>最近爱上openresty了,倒腾了后端,用Lua重写了第三方模块了,所以将涉及到的第三方模块分享给大家.</p>
+
+<p>Yagami框架整合了以下的第三方模块,用了之后感觉还是挺赞的.</p>
+
+<!--more-->
+
+
+<p>yagami..ko from dependent</p>
+
+<p>&mdash;&mdash;&ndash; need to add &mdash;&mdash;&mdash;&mdash;&ndash;</p>
+
+<p>logger-socket <br/>
+<a href="https://github.com/cloudflare/lua-resty-logger-socket">https://github.com/cloudflare/lua-resty-logger-socket</a> <br/>
+这个插件是由openresty作者agentzh所在的公司开发的一个logger插件,将产生的Log发送syslog到特定的的机器的</p>
+
+<p>lua-resty-beanstalkd <br/>
+<a href="https://github.com/smallfish/lua-resty-beanstalkd">https://github.com/smallfish/lua-resty-beanstalkd</a> <br/>
+一个beanstalkd队列的第三方的lua客户端,做着似乎smallfish是ngx_lua的作者之一,很赞的项目,最近在学习beanstalkd中.</p>
+
+<p>&mdash;&mdash;&ndash; need to add &mdash;&mdash;&mdash;&mdash;&ndash;</p>
+
+<p>一些扩展的Mysql数据库相关的操作方法
+<a href="https://github.com/LuaDist/dado/blob/master/src/dado/sql.lua">https://github.com/LuaDist/dado/blob/master/src/dado/sql.lua</a> <br/>
+<a href="https://github.com/LuaDist/dado/blob/master/src/table/extra.lua">https://github.com/LuaDist/dado/blob/master/src/table/extra.lua</a></p>
+
+<p>lua-multipart-post <br/>
+<a href="https://github.com/catwell/lua-multipart-post">https://github.com/catwell/lua-multipart-post</a> <br/>
+这个是一个基于lua实现的multipart post的插件,将数据拼装成请求发送到后端的存储服务上.</p>
+
+<p>lua_waf <br/>
+<a href="https://github.com/loveshell/ngx_lua_waf">https://github.com/loveshell/ngx_lua_waf</a> <br/>
+这个是loveshell写的一个nginx的防火墙插件,功能很强大,推荐给大家试用.</p>
+
+<p>resty <a href="http:">http:</a> <br/>
+<a href="https://github.com/liseen/lua-resty-http">https://github.com/liseen/lua-resty-http</a> <br/>
+<a href="https://github.com/dcshi/lua-resty-http">https://github.com/dcshi/lua-resty-http</a> <br/>
+<a href="https://github.com/bakins/lua-resty-http-simple">https://github.com/bakins/lua-resty-http-simple</a> <br/>
+Http的后端发送插件,自己拼装请求后往后端的特定服务器发送自己构造的请求很常用,推荐实用&hellip;.</p>
+
+<p>qrdecode: (todo) <br/>
+<a href="https://github.com/dcshi/lua-resty-QRDecode">https://github.com/dcshi/lua-resty-QRDecode</a> (error) <br/>
+<a href="https://github.com/dcshi/lua-resty-QRcode">https://github.com/dcshi/lua-resty-QRcode</a> <br/>
+QRCode相关的插件,是由就职于腾讯的dcshi写的, 实现了nginx lua生成和解析qrcode.  生成的我调试通过了,但是decode qrcode的部分,在centos下编译没有通过,这块需要在完善下.</p>
+
+<p>ipquery: <br/>
+<a href="https://github.com/charlieYong/ipquery">https://github.com/charlieYong/ipquery</a> <br/>
+ipquery是在lua下查下纯真ip库的一个插件,挺赞的&hellip;&hellip;</p>
+
+<p>uuid:  <br/>
+<a href="https://github.com/dcshi/lua-resty-UUID">https://github.com/dcshi/lua-resty-UUID</a> <br/>
+这个是uuid生成插件,可以生成长度为20和长度为8的uuid,测试过,很赞&hellip;.推荐使用,在centos 5.6/6.4下编译通过..</p>
+
+<p>websocket: <br/>
+<a href="https://github.com/agentzh/lua-resty-websocket">https://github.com/agentzh/lua-resty-websocket</a> <br/>
+强大的websocket支持,貌似最新版本的Openresty已经提供支持了!</p>
+
+<p>weedfs: <br/>
+<a href="https://github.com/medcl/lua-resty-weedfs">https://github.com/medcl/lua-resty-weedfs</a> <br/>
+<a href="http://log.medcl.net/item/2012/10/lua-resty-weedfs/">http://log.medcl.net/item/2012/10/lua-resty-weedfs/</a>
+这个是由medcl写weedfs插件,weedfs是用go写的类似facebook图片存储系统的一个文件存储系统,支持sharding,很赞,就一个weed的单个文件,就可以跑起来了.
+我现在将这个作为自己的服务器的小型文件存储后端.通过上面提到的multipost拼接请求将这些数据发送到后端的服务器存储起来,保存为一个uuid关联起来,写入到后端的数据库中&hellip;很赞&hellip;.</p>
+
+<p>validate:  <br/>
+<a href="https://bitbucket.org/djerius/validate.args">https://bitbucket.org/djerius/validate.args</a> <br/>
+这个插件可以将validate做验证.</p>
+
+<p>lua-cmsgpack:(todo) <br/>
+<a href="https://github.com/guanlan/lua-cmsgpack">https://github.com/guanlan/lua-cmsgpack</a> <br/>
+这个还没有测试过.</p>
+
+<p>lua int64(error) <br/>
+<a href="https://github.com/cloudwu/lua-int64">https://github.com/cloudwu/lua-int64</a>  <br/>
+这个是云风写的,由于不支持luajit,所以在nginx_lua下失败了&hellip;..</p>
+
+<p>暂时用的就这些,欢迎大家有更好的插件,一起交流!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[一些好用的IOS App]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app/"/>
+    <updated>2013-11-13T23:25:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app</id>
+    <content type="html"><![CDATA[<p>记录下一些感觉好用的APP,软件不用很多,够用就好了.</p>
+
+<p>最喜欢的软件:</p>
+
+<p>Dropbox</p>
+
+<p>Evernote</p>
+
+<p>多米音乐</p>
+
+<p>WeChat</p>
+
+<p>Facebook</p>
+
+<p>Youtube</p>
+
+<p>Chrome</p>
+
+<p>Line</p>
+
+<p>Google Maps</p>
+
+<p>Instagram</p>
+
+<p>招商银行</p>
+
+<p>QQ</p>
+
+<p>FreeFlare</p>
+
+<p>咕咚运动,这个今天测试了竟然有bug,发布到微信朋友圈里面,无法加载到具体的跑步信息.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[碎碎念]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/sui-sui-nian/"/>
+    <updated>2013-11-13T16:21:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/13/sui-sui-nian</id>
+    <content type="html"><![CDATA[<h1>絮叨下,所以起名叫碎碎念</h1>
+
+<p>又重新开始写博客了,从2000年开始都不知道换了多少个博客了,自己的博客也搭建了好几个,但是现在深受github的影响,就又重新开始写blog了.</p>
+
+<p>其实很多时候,都没有地方倾诉自己的想法,博客正好能将自己的想法写出来!</p>
+
+<p>重新开始写后,从TODOLIST中挑出一些有意思的文章来写,这样每天的乐趣也仅此于此了.</p>
+
+<p>上班之间,耍耍微博,看下订阅,现在看的越来越来了,都在完善自己的项目,下班之后,更是&hellip;<br/>
+一天之中,如果都忙起来的话,很快就度过了&hellip;.</p>
+
+<p>所以在一天之中,是否能留一些什么下来,那就是文字&hellip;.</p>
+
+<p>此前这半年没有怎么写博客是因为都把写的东西放到evernote上了,很多东西不好意思发出来,也就慢慢的沉寂了&hellip;</p>
+
+<p>从博客园到现在的github的博客,主要的好处是,不用浏览器想写就写,和提交代码一样,很符合大家的习惯,所以用的人就越来越多了&hellip;</p>
+
+<p>今天修复了下分类,还有加入了版权声明,加入了TODOLIST,发现每天都能在上面捣鼓些什么.</p>
+
+<p>今天到此了,整理下接下来博客的分类吧.</p>
+
+<p>Life: 一些絮叨 <br/>
+Tech: 一些技术文章,最近对于lua,redis,nginx的一些实用心得得总结下了.<br/>
+BigData: 一些大数据下的使用  <br/>
+OpenSource: 这里是自己的一些开源项目介绍<br/>
+Product: 产品观念<br/>
+Business: 关于事业和金融方面的,做一些笔记 <br/>
+Japanese: 关于日语的一些文章<br/>
+English: 写一些关于英语的 <br/>
+Translation: 翻译的一些文章</p>
+
+<p>这些就够了吧&hellip;&hellip;已经很多了.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[start CDH4.4]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4/"/>
+    <updated>2013-11-07T16:46:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4</id>
+    <content type="html"><![CDATA[<h1>前言</h1>
+
+<p>对于hadoop,hbase由于项目紧张原因好几个月没有时间认真的来总结下了,最近有一些空,就来继续的把项目中用到的一些技术实际的写出来,动动手,好久没有写东西了,都生疏了,说起hadoop,公司还在用相对比较古老的hadoop &amp;&amp; hbase 0.20.* 级别的老版本了,这点充分说明日本人不想折腾,能跑的就好,针对企业用户最主要的是稳定,而且访问量也不是很大,所以关注的不多,但是对于技术发烧友的我来说,当然想尝试新的版本的了,从去年开始就一直关注hadoop2 的beta版本,现在虽然说发布了一个稳定版本,但是大部分还是在沿用老版本,本次说的版本是cloudera公司的 CDH4.4 ,目前最新的稳定版本,本次的目的是想把现有的一些应用迁移到新版本上,而不是在基础的安装和了解.</p>
+
+<!-- more -->
+
+
+<h1>配置CDH4.4</h1>
+
+<p>本次不使用安装版本,就直接用了 cloudera已经打包好的虚拟机系统,我选择的是virtualbox的分支,因为在mac上virtualbox是免费开源的,目前来看跑的还算可以.
+下载cdh4.4的地址:
+<a href="http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html">http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html</a></p>
+
+<p>下载下来的虚拟机是2.5G,解压开来就可以了.  <br/>
+开起来机器配置不够的话,还是感觉比较卡的说,这些问题还是有的.
+启动之后见如下图:</p>
+
+<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_0.png" alt="Alt startcdh" /></p>
+
+<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_00.png" alt="Alt startcdh" /></p>
+
+<p>进入CDH的管理中心页面: <br/>
+<img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_1.png" alt="Alt startcdh" /></p>
+
+<p>帐号和密码都是 cloudera ,  cloudera
+进去之后就可以手动启动 hadoop,hbase了,这里启动后下次开机后这些服务将自动启动了.
+<img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_2.png" alt="Alt startcdh" /></p>
+
+<h1>HBase的操作</h1>
+
+<p>本次不是用默认自带的HBase shell, 使用公司<a href="http://www.bit-ware.co.jp/">www.bit-ware.co.jp</a>自己开发的HBashShellPro来进行操作演示.
+首先在github上下载HBaseShellPro:  <br/>
+<a href="https://github.com/bit-ware/HBaseShellPro/tree/0.94">https://github.com/bit-ware/HBaseShellPro/tree/0.94</a>
+使用方法:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>wget --no-check-certificate https://github.com/bit-ware/HBaseShellPro/archive/0.94.zip
+</span><span class='line'><span class="nv">$ </span>unzip 0.94
+</span><span class='line'><span class="nv">$ </span>mv HBaseShellPro-0.94 HBaseShellPro
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>HBaseShellPro
+</span><span class='line'><span class="nv">$ </span>vi /etc/hosts    -- add hbase quorum address:  172.17.1.xx  namenode
+</span><span class='line'><span class="nv">$ </span>chmod +x run.rb
+</span><span class='line'><span class="nv">$ </span>./run.rb
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>列出表</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>con , current node
+</span><span class='line'>l , list tables
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_s1.png" alt="Alt startcdh" /></p>
+
+<h2>创建表</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>r 0  , disable <span class="nb">readonly </span>mode
+</span><span class='line'>c tcdh f0 f1   , create table cdh , column family: f0,f1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_s2.png" alt="Alt startcdh" /></p>
+
+<h2>写入和读取测试</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>put tcdh r1 f0  q0  1 ,  write  row  r1
+</span><span class='line'>get tcdh r1  ,  get row r1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_s3.png" alt="Alt startcdh" /></p>
+
+<h1>结语</h1>
+
+<p>本次先写入到这里,验证了环境是正常的.
+使用Cloudera的配置环境省去了配置的修改问题,但是要了解整个过程还是得多读资料,了解实际的组成和系统的流程,以便于更好的了解和使用HBase.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[markdown learn]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn/"/>
+    <updated>2013-11-07T09:52:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn</id>
+    <content type="html"><![CDATA[<h1>为什么要学</h1>
+
+<p>从github上学习到很多,慢慢的感觉Markdown很流行,就发了点时间把自己的Github Page捣鼓成一个blog了,用了Octopress搭建了一个,然后用了最近很喜欢的BootStrap3的主题,看过去感觉还是很赞的.<br/>
+一直很喜欢简单的感觉,而BootStrap的风格正是我喜欢的,正如Twitter那样的简洁.</p>
+
+<p>回到Markdown,为什么要学习它呢,从今年5月份后就一直很少写博客了,因为一直在用Evernote,将所有自己的东西,或者看到的东西都记录进了Evernote,虽然说它也是很公开的,但是这个公开的内容,很难发布到博客上,所以最近还是捡起了Markdown,继续来写博客吧!</p>
+
+<p>现在用Markdown写东西,用了Mou,感觉这个软件可以可视化的体现,写完的结果,感觉还是挺赞的,推荐使用!</p>
+
+<p> <!--more--></p>
+
+<h1>Markdown的语法</h1>
+
+<h3>标题用类Atx的写法</h3>
+
+<p>感觉类Atx的写法还是挺赞的,###这样的分隔方式,挺容易写的,而且分层上也挺方便.</p>
+
+<p>区块引用</p>
+
+<p>]]&gt;这里是区块引用<br/>
+段落,但是为什么没有出效果呢
+]]&gt;</p>
+
+<p>这个貌似不起作用啊&hellip;.</p>
+
+<h3>列表</h3>
+
+<ul>
+<li>列表1</li>
+<li>列表2</li>
+</ul>
+
+
+<p>列表就是用 * 号加后面的内容的,这个也比较好记.<br/>
+有序列表<br/>
+换行的时候,多写2个空格吧,就好了.
+1. 列表1<br/>
+2. 列表2</p>
+
+<h3>插入html</h3>
+
+<table>
+    <tr> <td>Table td </td> <td> Table td </td> </tr>
+</table>
+
+
+<h3>插入代码</h3>
+
+<p>这里是一个代码段落</p>
+
+
+<figure class='code'><figcaption><span>php code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="o">&lt;?</span><span class="nx">php</span>
+</span><span class='line'>  <span class="k">echo</span> <span class="s2">&quot;hello workd!&quot;</span><span class="p">;</span>
+</span><span class='line'><span class="cp">?&gt;</span><span class="x"></span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>这里修正了下代码插入的显示.
+使用&#8220;` 语言括起来的,效果还是挺好看的.</p>
+
+<p>为什么我这里不显示代码行呢.只要用code标签阔少就可以了吧&hellip;&hellip;..但是不加pre标签,貌似不好看,加了又成空的了&hellip;.</p>
+
+<h3>插入分隔线</h3>
+
+<p>插入 *** 或者 &mdash;&ndash;  然后空格换行,就可以的了.</p>
+
+<hr />
+
+<h3>插入连接</h3>
+
+<p>连接是用<a href=""></a>来隔开的. 如果有title则在里面加上tital &hellip;.
+这里是一个连接 <a href="http://freeflare.com" title="freeflare">freeflare</a> 这个是一个行内链接.
+如果是相对路径可以使用<br/>
+这个是个内部连接<a href="http://xinqiyang.freeflare.com/about/">internal</a> 这个是个内部的连接..
+如果是新窗口打开链接的话,得如何实现呢?</p>
+
+<h3>强调内容</h3>
+
+<p>是用<strong>括起来的.<br/>
+</strong>这里是强调内容**<br/>
+如果都有空白的话<br/>
+* 这个是普通的字符 *</p>
+
+<h3>强调代码</h3>
+
+<p>可以用
+<code>printf("aaaa");</code> 这里就是强调代码了..</p>
+
+<h3>插入图片</h3>
+
+<p>这里是插入一张图片啦.插入图片还是挺简单的 <img src="" alt="Alt" /> 和插入连接差不多.</p>
+
+<p><img src="https://0.gravatar.com/avatar/b9cb8884236148ab30fb8cc71dd1ea3b?d=https%3A%2F%2Fidenticons.github.com%2Fec6623ee830f2a93a270a4f63721b80a.png&amp;r=x&amp;s=140" alt="Alt 插入图片" /></p>
+
+<h3>插入自动连接</h3>
+
+<p>就是用&lt;>来括起来的&hellip;<br/>
+<a href="http://freeflare.com">http://freeflare.com</a> 这里就是一个自动链接的了.</p>
+
+<h3>插入一些特殊字符</h3>
+
+<p>比如 \ ` * _ {} [] () # + &ndash; . ! 等,这些可以随意使用.</p>
+
+<h3>插入摘要</h3>
+
+<p>添加这个就可以了 <!--more--></p>
+
+<h1>结语</h1>
+
+<p>其实Markdown的语法还是很简单易懂的&hellip;开始做页面还有写博客吧&hellip;.其实可以做出自己想要的效果的.
+接下来多写几篇应该就很熟悉的了..
+就是感觉用这个写又回到了用vim写代码的感觉的了.不过还是很赞&hellip;.出来的排版效果还是挺不错的.</p>
+
+<p>简单就是好!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[blog update]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/05/blog-update/"/>
+    <updated>2013-11-05T19:14:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/05/blog-update</id>
+    <content type="html"><![CDATA[<p>this is my github blog, I will write more aritcle thoses days!</p>
+
+<p>work hard!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[first]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/05/first/"/>
+    <updated>2013-11-05T18:47:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/05/first</id>
+    <content type="html"><![CDATA[<p>This is My first blog .
+Hi, I am xinqiyang.</p>
+]]></content>
+  </entry>
+  
+</feed>

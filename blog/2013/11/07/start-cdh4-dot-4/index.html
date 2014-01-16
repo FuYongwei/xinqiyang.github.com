@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>start CDH4.4 - Xinqiyang's Blog</title>
+  <meta name="author" content="xinqiyang">
+
+  
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="Xinqiyang's Blog" type="application/atom+xml">
+
+  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+
+  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34401379-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body   >
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="?a=refresh">Xinqiyang's Blog</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="/">Blog</a>
+                </li>
+                <li >
+                    <a href="/blog/archives">Archives</a>
+                </li>
+                <li >
+                    <a href="/todolist">TODOLIST</a>
+                </li>
+                <li >
+                    <a href="/ambitions">Ambitions</a>
+                </li>    
+                <li >
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="search navbar-form navbar-right" action="http://www.google.com/search" method="GET">
+                    <input type="hidden" name="q" value="site:xinqiyang.freeflare.com">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9">
+    <article class="hentry" role="article">
+      
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-11-07T16:46:00+09:00" pubdate data-updated="true">Nov 7<span>th</span>, 2013</time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title">
+        Start CDH4.4
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix"><h1>前言</h1>
+
+<p>对于hadoop,hbase由于项目紧张原因好几个月没有时间认真的来总结下了,最近有一些空,就来继续的把项目中用到的一些技术实际的写出来,动动手,好久没有写东西了,都生疏了,说起hadoop,公司还在用相对比较古老的hadoop &amp;&amp; hbase 0.20.* 级别的老版本了,这点充分说明日本人不想折腾,能跑的就好,针对企业用户最主要的是稳定,而且访问量也不是很大,所以关注的不多,但是对于技术发烧友的我来说,当然想尝试新的版本的了,从去年开始就一直关注hadoop2 的beta版本,现在虽然说发布了一个稳定版本,但是大部分还是在沿用老版本,本次说的版本是cloudera公司的 CDH4.4 ,目前最新的稳定版本,本次的目的是想把现有的一些应用迁移到新版本上,而不是在基础的安装和了解.</p>
+
+<!-- more -->
+
+
+<h1>配置CDH4.4</h1>
+
+<p>本次不使用安装版本,就直接用了 cloudera已经打包好的虚拟机系统,我选择的是virtualbox的分支,因为在mac上virtualbox是免费开源的,目前来看跑的还算可以.
+下载cdh4.4的地址:
+<a href="http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html">http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html</a></p>
+
+<p>下载下来的虚拟机是2.5G,解压开来就可以了.  <br/>
+开起来机器配置不够的话,还是感觉比较卡的说,这些问题还是有的.
+启动之后见如下图:</p>
+
+<p><img src="/images/blogimg/start_cdh/cdh_0.png" alt="Alt startcdh" /></p>
+
+<p><img src="/images/blogimg/start_cdh/cdh_00.png" alt="Alt startcdh" /></p>
+
+<p>进入CDH的管理中心页面: <br/>
+<img src="/images/blogimg/start_cdh/cdh_1.png" alt="Alt startcdh" /></p>
+
+<p>帐号和密码都是 cloudera ,  cloudera
+进去之后就可以手动启动 hadoop,hbase了,这里启动后下次开机后这些服务将自动启动了.
+<img src="/images/blogimg/start_cdh/cdh_2.png" alt="Alt startcdh" /></p>
+
+<h1>HBase的操作</h1>
+
+<p>本次不是用默认自带的HBase shell, 使用公司<a href="http://www.bit-ware.co.jp/">www.bit-ware.co.jp</a>自己开发的HBashShellPro来进行操作演示.
+首先在github上下载HBaseShellPro:  <br/>
+<a href="https://github.com/bit-ware/HBaseShellPro/tree/0.94">https://github.com/bit-ware/HBaseShellPro/tree/0.94</a>
+使用方法:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>wget --no-check-certificate https://github.com/bit-ware/HBaseShellPro/archive/0.94.zip
+</span><span class='line'><span class="nv">$ </span>unzip 0.94
+</span><span class='line'><span class="nv">$ </span>mv HBaseShellPro-0.94 HBaseShellPro
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>HBaseShellPro
+</span><span class='line'><span class="nv">$ </span>vi /etc/hosts    -- add hbase quorum address:  172.17.1.xx  namenode
+</span><span class='line'><span class="nv">$ </span>chmod +x run.rb
+</span><span class='line'><span class="nv">$ </span>./run.rb
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>列出表</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>con , current node
+</span><span class='line'>l , list tables
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="/images/blogimg/start_cdh/cdh_s1.png" alt="Alt startcdh" /></p>
+
+<h2>创建表</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>r 0  , disable <span class="nb">readonly </span>mode
+</span><span class='line'>c tcdh f0 f1   , create table cdh , column family: f0,f1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="/images/blogimg/start_cdh/cdh_s2.png" alt="Alt startcdh" /></p>
+
+<h2>写入和读取测试</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>put tcdh r1 f0  q0  1 ,  write  row  r1
+</span><span class='line'>get tcdh r1  ,  get row r1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="/images/blogimg/start_cdh/cdh_s3.png" alt="Alt startcdh" /></p>
+
+<h1>结语</h1>
+
+<p>本次先写入到这里,验证了环境是正常的.
+使用Cloudera的配置环境省去了配置的修改问题,但是要了解整个过程还是得多读资料,了解实际的组成和系统的流程,以便于更好的了解和使用HBase.</p>
+</div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">xinqiyang</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-11-07T16:46:00+09:00" pubdate data-updated="true">Nov 7<span>th</span>, 2013</time>
+          
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/bigdata/'>BigData</a>
+  
+</span>
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2013/11/07/markdown-learn/" title="Previous Post: markdown learn">&laquo; markdown learn</a></li>
+            
+            
+            <li class="next"><a href="/blog/2013/11/13/sui-sui-nian/" title="Next Post: 碎碎念">碎碎念 &raquo;</a></li>
+            
+          </ul>
+        
+        
+        <div style="font-size:14px;BORDER-BOTTOM: #bbbbbb 1px solid; BORDER-LEFT: #bbbbbb 1px solid; BACKGROUND: #f6f6f6; HEIGHT: 120px; BORDER-TOP: #bbbbbb 1px solid; BORDER-RIGHT: #bbbbbb 1px solid" class=""> 
+        <div style="MARGIN-TOP: 10px; FLOAT: left; MARGIN-LEFT: 5px; MARGIN-RIGHT: 10px"> 
+        <img alt="xinqiyang" src="http://d13pix9kaak6wt.cloudfront.net/avatar/xinqiyang_1344166289_33.png" width="80" height="99" /></div> 
+        <div style="LINE-HEIGHT: 200%; MARGIN-TOP: 10px; COLOR: #000000"> 
+        Author： <a href="http://xinqiyang.github.io/">xinqiyang</a> <br /> 
+
+        From  ： <a href="http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4/">http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4/</a> <br />
+
+        License: <a target="_blank" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported " href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh"> 
+        Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported </a>
+        </div>
+        </div>
+
+      </footer>
+    </article>
+    
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+    
+  </div>
+
+  
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Category</h3>
+  </div>
+  
+  <div id="categories" class="list-group">
+    <a class='list-group-item' href='/blog/categories/bigdata/'>BigData (2)</a>
+<a class='list-group-item' href='/blog/categories/tech/'>Tech (1)</a>
+<a class='list-group-item' href='/blog/categories/blog/'>blog (5)</a>
+<a class='list-group-item' href='/blog/categories/default/'>default (1)</a>
+<a class='list-group-item' href='/blog/categories/tech/'>tech (1)</a>
+ 
+  </div> 
+
+</section><section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item " href="/blog/2014/01/16/2014nian-zhan-wang/">2014年展望</a>
+    
+    <a class="list-group-item " href="/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013/">迟到的年终总结2013</a>
+    
+    <a class="list-group-item " href="/blog/2013/12/11/spark-on-yarn/">Spark on Yarn 学习(一)</a>
+    
+    <a class="list-group-item " href="/blog/2013/11/23/openresty-third-party-modules/">Openresty Third Party Modules</a>
+    
+    <a class="list-group-item " href="/blog/2013/11/13/my-ios-app/">一些好用的IOS App</a>
+    
+  </div>
+</section>
+
+<section class="panel panel-default clearfix">
+  <div class="panel-heading">
+      <h3 class="panel-title">GitHub Repos</h3>
+  </div>
+  <div class="list-group" id="gh_repos">
+    <p class="loading">Status updating...</p>
+  </div>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'xinqiyang',
+            count: 0,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+<section class="googleplus panel panel-default">
+  <div class="panel-body">
+    <h1>
+      <a href="https://plus.google.com/xinqiyang?rel=author">
+        <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+        Google+
+      </a>
+    </h1>
+  </div>
+</section>
+
+
+
+    
+  </aside>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2014 - xinqiyang<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/kAworu/octostrap3">octostrap3</a></span>.
+  </small>
+</p>
+
+</div>
+</footer>
+    <script src="/javascripts/libs/bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'xinqiyang';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4/';
+        var disqus_url = 'http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

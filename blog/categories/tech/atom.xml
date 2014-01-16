@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tech | Xinqiyang's Blog]]></title>
+  <link href="http://xinqiyang.freeflare.com/blog/categories/tech/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.freeflare.com/"/>
+  <updated>2014-01-16T11:40:55+09:00</updated>
+  <id>http://xinqiyang.freeflare.com/</id>
+  <author>
+    <name><![CDATA[xinqiyang]]></name>
+    <email><![CDATA[xinqiyang@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[openresty third party modules]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2013/11/23/openresty-third-party-modules/"/>
+    <updated>2013-11-23T22:26:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2013/11/23/openresty-third-party-modules</id>
+    <content type="html"><![CDATA[<p>openresty 第三方模块列表
+这个是YagamiFramework(八神框架)系列文章的一部分,有遇到好的插件,我会持续的更新这篇文章的.</p>
+
+<p>最近爱上openresty了,倒腾了后端,用Lua重写了第三方模块了,所以将涉及到的第三方模块分享给大家.</p>
+
+<p>Yagami框架整合了以下的第三方模块,用了之后感觉还是挺赞的.</p>
+
+<!--more-->
+
+
+<p>yagami..ko from dependent</p>
+
+<p>&mdash;&mdash;&ndash; need to add &mdash;&mdash;&mdash;&mdash;&ndash;</p>
+
+<p>logger-socket <br/>
+<a href="https://github.com/cloudflare/lua-resty-logger-socket">https://github.com/cloudflare/lua-resty-logger-socket</a> <br/>
+这个插件是由openresty作者agentzh所在的公司开发的一个logger插件,将产生的Log发送syslog到特定的的机器的</p>
+
+<p>lua-resty-beanstalkd <br/>
+<a href="https://github.com/smallfish/lua-resty-beanstalkd">https://github.com/smallfish/lua-resty-beanstalkd</a> <br/>
+一个beanstalkd队列的第三方的lua客户端,做着似乎smallfish是ngx_lua的作者之一,很赞的项目,最近在学习beanstalkd中.</p>
+
+<p>&mdash;&mdash;&ndash; need to add &mdash;&mdash;&mdash;&mdash;&ndash;</p>
+
+<p>一些扩展的Mysql数据库相关的操作方法
+<a href="https://github.com/LuaDist/dado/blob/master/src/dado/sql.lua">https://github.com/LuaDist/dado/blob/master/src/dado/sql.lua</a> <br/>
+<a href="https://github.com/LuaDist/dado/blob/master/src/table/extra.lua">https://github.com/LuaDist/dado/blob/master/src/table/extra.lua</a></p>
+
+<p>lua-multipart-post <br/>
+<a href="https://github.com/catwell/lua-multipart-post">https://github.com/catwell/lua-multipart-post</a> <br/>
+这个是一个基于lua实现的multipart post的插件,将数据拼装成请求发送到后端的存储服务上.</p>
+
+<p>lua_waf <br/>
+<a href="https://github.com/loveshell/ngx_lua_waf">https://github.com/loveshell/ngx_lua_waf</a> <br/>
+这个是loveshell写的一个nginx的防火墙插件,功能很强大,推荐给大家试用.</p>
+
+<p>resty <a href="http:">http:</a> <br/>
+<a href="https://github.com/liseen/lua-resty-http">https://github.com/liseen/lua-resty-http</a> <br/>
+<a href="https://github.com/dcshi/lua-resty-http">https://github.com/dcshi/lua-resty-http</a> <br/>
+<a href="https://github.com/bakins/lua-resty-http-simple">https://github.com/bakins/lua-resty-http-simple</a> <br/>
+Http的后端发送插件,自己拼装请求后往后端的特定服务器发送自己构造的请求很常用,推荐实用&hellip;.</p>
+
+<p>qrdecode: (todo) <br/>
+<a href="https://github.com/dcshi/lua-resty-QRDecode">https://github.com/dcshi/lua-resty-QRDecode</a> (error) <br/>
+<a href="https://github.com/dcshi/lua-resty-QRcode">https://github.com/dcshi/lua-resty-QRcode</a> <br/>
+QRCode相关的插件,是由就职于腾讯的dcshi写的, 实现了nginx lua生成和解析qrcode.  生成的我调试通过了,但是decode qrcode的部分,在centos下编译没有通过,这块需要在完善下.</p>
+
+<p>ipquery: <br/>
+<a href="https://github.com/charlieYong/ipquery">https://github.com/charlieYong/ipquery</a> <br/>
+ipquery是在lua下查下纯真ip库的一个插件,挺赞的&hellip;&hellip;</p>
+
+<p>uuid:  <br/>
+<a href="https://github.com/dcshi/lua-resty-UUID">https://github.com/dcshi/lua-resty-UUID</a> <br/>
+这个是uuid生成插件,可以生成长度为20和长度为8的uuid,测试过,很赞&hellip;.推荐使用,在centos 5.6/6.4下编译通过..</p>
+
+<p>websocket: <br/>
+<a href="https://github.com/agentzh/lua-resty-websocket">https://github.com/agentzh/lua-resty-websocket</a> <br/>
+强大的websocket支持,貌似最新版本的Openresty已经提供支持了!</p>
+
+<p>weedfs: <br/>
+<a href="https://github.com/medcl/lua-resty-weedfs">https://github.com/medcl/lua-resty-weedfs</a> <br/>
+<a href="http://log.medcl.net/item/2012/10/lua-resty-weedfs/">http://log.medcl.net/item/2012/10/lua-resty-weedfs/</a>
+这个是由medcl写weedfs插件,weedfs是用go写的类似facebook图片存储系统的一个文件存储系统,支持sharding,很赞,就一个weed的单个文件,就可以跑起来了.
+我现在将这个作为自己的服务器的小型文件存储后端.通过上面提到的multipost拼接请求将这些数据发送到后端的服务器存储起来,保存为一个uuid关联起来,写入到后端的数据库中&hellip;很赞&hellip;.</p>
+
+<p>validate:  <br/>
+<a href="https://bitbucket.org/djerius/validate.args">https://bitbucket.org/djerius/validate.args</a> <br/>
+这个插件可以将validate做验证.</p>
+
+<p>lua-cmsgpack:(todo) <br/>
+<a href="https://github.com/guanlan/lua-cmsgpack">https://github.com/guanlan/lua-cmsgpack</a> <br/>
+这个还没有测试过.</p>
+
+<p>lua int64(error) <br/>
+<a href="https://github.com/cloudwu/lua-int64">https://github.com/cloudwu/lua-int64</a>  <br/>
+这个是云风写的,由于不支持luajit,所以在nginx_lua下失败了&hellip;..</p>
+
+<p>暂时用的就这些,欢迎大家有更好的插件,一起交流!</p>
+]]></content>
+  </entry>
+  
+</feed>
