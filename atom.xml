@@ -4,7 +4,7 @@
   <title><![CDATA[Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2014-01-23T11:12:46+09:00</updated>
+  <updated>2014-02-05T09:52:43+09:00</updated>
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[跟上潮流]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2014/01/23/gen-shang-chao-liu/"/>
+    <updated>2014-01-23T16:15:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2014/01/23/gen-shang-chao-liu</id>
+    <content type="html"><![CDATA[<h1>跟上潮流</h1>
+
+<p>跟上发展的潮流,为什么想写这个话题,因为,现在在做很多的很多的事情,都和网络和移动有关.
+跟上潮流在我看来所指的就是让自己用好这些软件,软件仅仅是工具,用不用还在于你自己.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2014年展望]]></title>
@@ -268,7 +280,14 @@ ipquery是在lua下查下纯真ip库的一个插件,挺赞的&hellip;&hellip;</p
     <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app/"/>
     <updated>2013-11-13T23:25:00+09:00</updated>
     <id>http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app</id>
-    <content type="html"><![CDATA[<p>记录下一些感觉好用的APP,软件不用很多,够用就好了.</p>
+    <content type="html"><![CDATA[<p>记录下一些感觉好用的APP,软件不用很多,够用就好了.
+其他的也会陆续的记录在这里,好用的软件真的挺多的</p>
+
+<p>一些好用的Mac下的APP</p>
+
+<p>alfred  这款快速启动工具真的是很赞. <br/>
+zsh     一款能自动纠正拼写错误的sh,也是真的很赞
+brew   就不用说了,自动安装mac下的那些库的相关软件.也是很实用.</p>
 
 <p>最喜欢的软件:</p>
 
