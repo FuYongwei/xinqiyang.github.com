@@ -4,7 +4,7 @@
   <title><![CDATA[Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2014-07-04T01:59:35+09:00</updated>
+  <updated>2014-07-04T02:03:39+09:00</updated>
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[倒腾啊倒腾]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2014/07/04/dao-teng-a-dao-teng/"/>
+    <updated>2014-07-04T02:01:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2014/07/04/dao-teng-a-dao-teng</id>
+    <content type="html"><![CDATA[<h3>诸事不顺</h3>
+
+<p>最近倒腾啊,自从升级到了最新版本的yosemite之后,这台mac就无法写blog了,憋了好久的了,终于可以来写一篇了.
+已经发现许久没有提交github的记录了,现在都在自己私有的git服务器上操作.</p>
+
+<p>测试下,blog应该算是恢复正常了吧!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[I am return]]></title>
