@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tech | Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.freeflare.com/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2014-03-24T15:28:18+09:00</updated>
+  <updated>2014-07-04T01:59:35+09:00</updated>
   <id>http://xinqiyang.freeflare.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[redis cluster setup]]></title>
+    <link href="http://xinqiyang.freeflare.com/blog/2014/06/09/redis-cluster-setup/"/>
+    <updated>2014-06-09T19:24:00+09:00</updated>
+    <id>http://xinqiyang.freeflare.com/blog/2014/06/09/redis-cluster-setup</id>
+    <content type="html"><![CDATA[<h2>redis cluster setup</h2>
+
+<h2>install redis-mgr project from github</h2>
+
+<h2>build binaries files then copy to folder</h2>
+
+<h2>run python scripts</h2>
+
+<h2>The end</h2>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[openresty third party modules]]></title>
