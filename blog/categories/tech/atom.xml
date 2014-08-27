@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tech | Xinqiyang's Blog]]></title>
-  <link href="http://xinqiyang.freeflare.com/blog/categories/tech/atom.xml" rel="self"/>
-  <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2014-08-27T11:22:46+09:00</updated>
-  <id>http://xinqiyang.freeflare.com/</id>
+  <link href="http://xinqiyang.100intl.com/blog/categories/tech/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.100intl.com/"/>
+  <updated>2014-08-27T11:26:06+09:00</updated>
+  <id>http://xinqiyang.100intl.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
     <email><![CDATA[xinqiyang@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[redis cluster setup]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/06/09/redis-cluster-setup/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/06/09/redis-cluster-setup/"/>
     <updated>2014-06-09T19:24:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/06/09/redis-cluster-setup</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/06/09/redis-cluster-setup</id>
     <content type="html"><![CDATA[<h2>redis cluster setup</h2>
 
 <h2>install redis-mgr project from github</h2>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[openresty third party modules]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/23/openresty-third-party-modules/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/23/openresty-third-party-modules/"/>
     <updated>2013-11-23T22:26:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/23/openresty-third-party-modules</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/23/openresty-third-party-modules</id>
     <content type="html"><![CDATA[<p>openresty 第三方模块列表
 这个是YagamiFramework(八神框架)系列文章的一部分,有遇到好的插件,我会持续的更新这篇文章的.</p>
 
@@ -118,9 +118,9 @@ ipquery是在lua下查下纯真ip库的一个插件,挺赞的&hellip;&hellip;</p
   
   <entry>
     <title type="html"><![CDATA[markdown learn]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/07/markdown-learn/"/>
     <updated>2013-11-07T09:52:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/07/markdown-learn</id>
     <content type="html"><![CDATA[<h1>为什么要学</h1>
 
 <p>从github上学习到很多,慢慢的感觉Markdown很流行,就发了点时间把自己的Github Page捣鼓成一个blog了,用了Octopress搭建了一个,然后用了最近很喜欢的BootStrap3的主题,看过去感觉还是很赞的.<br/>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://xinqiyang.freeflare.com/sitemap.xml 
+Sitemap: http://xinqiyang.100intl.com/sitemap.xml 

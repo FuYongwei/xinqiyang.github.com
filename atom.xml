@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Xinqiyang's Blog]]></title>
-  <link href="http://xinqiyang.freeflare.com/atom.xml" rel="self"/>
-  <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2014-08-27T11:22:46+09:00</updated>
-  <id>http://xinqiyang.freeflare.com/</id>
+  <link href="http://xinqiyang.100intl.com/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.100intl.com/"/>
+  <updated>2014-08-27T11:26:06+09:00</updated>
+  <id>http://xinqiyang.100intl.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
     <email><![CDATA[xinqiyang@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[全栈工程师的苦与悲]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/08/27/fullstack/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/08/27/fullstack/"/>
     <updated>2014-08-27T11:13:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/08/27/fullstack</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/08/27/fullstack</id>
     <content type="html"><![CDATA[<p>全栈工程师的苦与悲</p>
 
 <h2>创业路上的血泪死</h2>
@@ -36,9 +36,9 @@
   
   <entry>
     <title type="html"><![CDATA[倒腾啊倒腾]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/07/04/dao-teng-a-dao-teng/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/07/04/dao-teng-a-dao-teng/"/>
     <updated>2014-07-04T02:01:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/07/04/dao-teng-a-dao-teng</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/07/04/dao-teng-a-dao-teng</id>
     <content type="html"><![CDATA[<h3>诸事不顺</h3>
 
 <p>最近倒腾啊,自从升级到了最新版本的yosemite之后,这台mac就无法写blog了,憋了好久的了,终于可以来写一篇了.
@@ -50,9 +50,9 @@
   
   <entry>
     <title type="html"><![CDATA[I am return]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/06/22/i-am-return/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/06/22/i-am-return/"/>
     <updated>2014-06-22T23:25:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/06/22/i-am-return</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/06/22/i-am-return</id>
     <content type="html"><![CDATA[<h2>#</h2>
 
 <p>坑人的Mac OSX 10.10 yosemite 把ruby升级到了2.1.2版本的了,导致现在的rake不能跑的了.
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[redis cluster setup]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/06/09/redis-cluster-setup/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/06/09/redis-cluster-setup/"/>
     <updated>2014-06-09T19:24:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/06/09/redis-cluster-setup</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/06/09/redis-cluster-setup</id>
     <content type="html"><![CDATA[<h2>redis cluster setup</h2>
 
 <h2>install redis-mgr project from github</h2>
@@ -79,9 +79,9 @@
   
   <entry>
     <title type="html"><![CDATA[在路上]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/04/17/zai-lu-shang/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/04/17/zai-lu-shang/"/>
     <updated>2014-04-17T18:03:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/04/17/zai-lu-shang</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/04/17/zai-lu-shang</id>
     <content type="html"><![CDATA[<p>在路上</p>
 
 <p>当不敢走的时候,就思考着如何来走,真正开始走了,就有许许多多的感慨了.</p>
@@ -110,9 +110,9 @@
   
   <entry>
     <title type="html"><![CDATA[小小码农的产品观]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/03/17/xiao-xiao-ma-nong-de-chan-pin-guan/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/03/17/xiao-xiao-ma-nong-de-chan-pin-guan/"/>
     <updated>2014-03-17T15:53:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/03/17/xiao-xiao-ma-nong-de-chan-pin-guan</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/03/17/xiao-xiao-ma-nong-de-chan-pin-guan</id>
     <content type="html"><![CDATA[<p>小小码农的产品观念</p>
 
 <p>这篇是继之前写的一篇<a href="http://xinqiyang.freeflare.com/blog/2014/03/08/ru-he-zuo-%5B%3F%5D-kuan-chan-pin/">如何做一款产品</a>,继续而写,还是继续讨论产品.</p>
@@ -805,9 +805,9 @@ N个联系人  <br/>
   
   <entry>
     <title type="html"><![CDATA[如何做一款产品]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/03/08/ru-he-zuo-%5B%3F%5D-kuan-chan-pin/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/03/08/ru-he-zuo-%5B%3F%5D-kuan-chan-pin/"/>
     <updated>2014-03-08T21:31:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/03/08/ru-he-zuo-[?]-kuan-chan-pin</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/03/08/ru-he-zuo-[?]-kuan-chan-pin</id>
     <content type="html"><![CDATA[<p>如何做一款产品</p>
 
 <p>思想中一直停留着一个信念,我要自己打造一个自己认同的产品,做自己喜欢做的事情,并将他当成毕生的事业来坚持!</p>
@@ -853,9 +853,9 @@ N个联系人  <br/>
   
   <entry>
     <title type="html"><![CDATA[跟上潮流]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/01/23/gen-shang-chao-liu/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/01/23/gen-shang-chao-liu/"/>
     <updated>2014-01-23T16:15:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/01/23/gen-shang-chao-liu</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/01/23/gen-shang-chao-liu</id>
     <content type="html"><![CDATA[<h1>跟上潮流</h1>
 
 <p>跟上发展的潮流,为什么想写这个话题,因为,现在在做很多的很多的事情,都和网络和移动有关.
@@ -865,9 +865,9 @@ N个联系人  <br/>
   
   <entry>
     <title type="html"><![CDATA[2014年展望]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/01/16/2014nian-zhan-wang/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/01/16/2014nian-zhan-wang/"/>
     <updated>2014-01-16T10:45:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/01/16/2014nian-zhan-wang</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/01/16/2014nian-zhan-wang</id>
     <content type="html"><![CDATA[<h1>展望2014年</h1>
 
 <p>2013年,匆匆的过去了,2014年已经来了,今年想学些什么,做些什么呢?</p>
@@ -909,9 +909,9 @@ N个联系人  <br/>
   
   <entry>
     <title type="html"><![CDATA[迟到的年终总结2013]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013/"/>
     <updated>2014-01-08T18:38:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013</id>
     <content type="html"><![CDATA[<h1>迟到的年终总结(2013)</h1>
 
 <p>元旦放假去了趟澳洲回来,就一直忙碌到现在,本来年底的事情就比较多,更是特别坑的事情多. <br/>
@@ -960,9 +960,9 @@ N个联系人  <br/>
   
   <entry>
     <title type="html"><![CDATA[spark on yarn 学习(一)]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/12/11/spark-on-yarn/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/12/11/spark-on-yarn/"/>
     <updated>2013-12-11T13:48:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/12/11/spark-on-yarn</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/12/11/spark-on-yarn</id>
     <content type="html"><![CDATA[<p>最近看到明风的关于数据挖掘平台下实用Spark和Yarn来做推荐的PPT,感觉很赞,现在基于大数据和快速计算方面技术的发展很快,随着Apache基金会上发布的一个个项目,感觉真的新技术将会不断出现在大家的面前.</p>
 
 <p>作为技术发烧友,作为一个看客,来围观下,不过从PPT中列出来的技术来看,未来的发展趋势还是说是有的,而且还是很有发展前景的. 现在Spark和Yarn也就发布2年多的时间,随着社区力量的跟上,不断的将之前的项目都放到一个更好的资源架构的整合上来实现.特别是放到内存上来实现,在速度和效率上还是确实有区别于之前的其他技术.所以作为巨头之一的淘宝,就跟上的技术发展的趋势了.但是作为小公司而言,没有这样的大规模的机器部署的情况下,如何用利用好这些技术呢?</p>
@@ -1014,13 +1014,13 @@ HDFS    HBASE</p>
 
 <p>Spark On Yarn 的框架   <br/>
 Spark的生态圈 <br/>
-<img src="http://xinqiyang.freeflare.com/images/blogimg/sparkonyarn/sparkonyarn1.png" alt="image" /></p>
+<img src="http://xinqiyang.100intl.com/images/blogimg/sparkonyarn/sparkonyarn1.png" alt="image" /></p>
 
 <p>Spark On Yarn的实现流程 <br/>
-<img src="http://xinqiyang.freeflare.com/images/blogimg/sparkonyarn/sparkonyarn2.png" alt="image" /></p>
+<img src="http://xinqiyang.100intl.com/images/blogimg/sparkonyarn/sparkonyarn2.png" alt="image" /></p>
 
 <p>推荐系统的具体架构  <br/>
-<img src="http://xinqiyang.freeflare.com/images/blogimg/sparkonyarn/sparkonyarn3.png" alt="image" /></p>
+<img src="http://xinqiyang.100intl.com/images/blogimg/sparkonyarn/sparkonyarn3.png" alt="image" /></p>
 
 <p>总结
 粗略的了解下技术架构,接下来有时间的话,深入的实际尝试下,搭建系统跑下svm等,体会下这个系统!</p>
@@ -1029,9 +1029,9 @@ Spark的生态圈 <br/>
   
   <entry>
     <title type="html"><![CDATA[openresty third party modules]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/23/openresty-third-party-modules/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/23/openresty-third-party-modules/"/>
     <updated>2013-11-23T22:26:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/23/openresty-third-party-modules</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/23/openresty-third-party-modules</id>
     <content type="html"><![CDATA[<p>openresty 第三方模块列表
 这个是YagamiFramework(八神框架)系列文章的一部分,有遇到好的插件,我会持续的更新这篇文章的.</p>
 
@@ -1115,9 +1115,9 @@ ipquery是在lua下查下纯真ip库的一个插件,挺赞的&hellip;&hellip;</p
   
   <entry>
     <title type="html"><![CDATA[一些好用的IOS App]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/13/my-ios-app/"/>
     <updated>2013-11-13T23:25:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/13/my-ios-app</id>
     <content type="html"><![CDATA[<p>记录下一些感觉好用的APP,软件不用很多,够用就好了.
 其他的也会陆续的记录在这里,好用的软件真的挺多的</p>
 
@@ -1161,9 +1161,9 @@ brew   就不用说了,自动安装mac下的那些库的相关软件.也是很�
   
   <entry>
     <title type="html"><![CDATA[碎碎念]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/sui-sui-nian/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/13/sui-sui-nian/"/>
     <updated>2013-11-13T16:21:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/13/sui-sui-nian</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/13/sui-sui-nian</id>
     <content type="html"><![CDATA[<h1>絮叨下,所以起名叫碎碎念</h1>
 
 <p>又重新开始写博客了,从2000年开始都不知道换了多少个博客了,自己的博客也搭建了好几个,但是现在深受github的影响,就又重新开始写blog了.</p>
@@ -1201,9 +1201,9 @@ Translation: 翻译的一些文章</p>
   
   <entry>
     <title type="html"><![CDATA[start CDH4.4]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/07/start-cdh4-dot-4/"/>
     <updated>2013-11-07T16:46:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/07/start-cdh4-dot-4</id>
     <content type="html"><![CDATA[<h1>前言</h1>
 
 <p>对于hadoop,hbase由于项目紧张原因好几个月没有时间认真的来总结下了,最近有一些空,就来继续的把项目中用到的一些技术实际的写出来,动动手,好久没有写东西了,都生疏了,说起hadoop,公司还在用相对比较古老的hadoop &amp;&amp; hbase 0.20.* 级别的老版本了,这点充分说明日本人不想折腾,能跑的就好,针对企业用户最主要的是稳定,而且访问量也不是很大,所以关注的不多,但是对于技术发烧友的我来说,当然想尝试新的版本的了,从去年开始就一直关注hadoop2 的beta版本,现在虽然说发布了一个稳定版本,但是大部分还是在沿用老版本,本次说的版本是cloudera公司的 CDH4.4 ,目前最新的稳定版本,本次的目的是想把现有的一些应用迁移到新版本上,而不是在基础的安装和了解.</p>
@@ -1221,16 +1221,16 @@ Translation: 翻译的一些文章</p>
 开起来机器配置不够的话,还是感觉比较卡的说,这些问题还是有的.
 启动之后见如下图:</p>
 
-<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_0.png" alt="Alt startcdh" /></p>
+<p><img src="http://xinqiyang.100intl.com/images/blogimg/start_cdh/cdh_0.png" alt="Alt startcdh" /></p>
 
-<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_00.png" alt="Alt startcdh" /></p>
+<p><img src="http://xinqiyang.100intl.com/images/blogimg/start_cdh/cdh_00.png" alt="Alt startcdh" /></p>
 
 <p>进入CDH的管理中心页面: <br/>
-<img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_1.png" alt="Alt startcdh" /></p>
+<img src="http://xinqiyang.100intl.com/images/blogimg/start_cdh/cdh_1.png" alt="Alt startcdh" /></p>
 
 <p>帐号和密码都是 cloudera ,  cloudera
 进去之后就可以手动启动 hadoop,hbase了,这里启动后下次开机后这些服务将自动启动了.
-<img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_2.png" alt="Alt startcdh" /></p>
+<img src="http://xinqiyang.100intl.com/images/blogimg/start_cdh/cdh_2.png" alt="Alt startcdh" /></p>
 
 <h1>HBase的操作</h1>
 
@@ -1265,7 +1265,7 @@ Translation: 翻译的一些文章</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_s1.png" alt="Alt startcdh" /></p>
+<p><img src="http://xinqiyang.100intl.com/images/blogimg/start_cdh/cdh_s1.png" alt="Alt startcdh" /></p>
 
 <h2>创建表</h2>
 
@@ -1276,7 +1276,7 @@ Translation: 翻译的一些文章</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_s2.png" alt="Alt startcdh" /></p>
+<p><img src="http://xinqiyang.100intl.com/images/blogimg/start_cdh/cdh_s2.png" alt="Alt startcdh" /></p>
 
 <h2>写入和读取测试</h2>
 
@@ -1287,7 +1287,7 @@ Translation: 翻译的一些文章</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p><img src="http://xinqiyang.freeflare.com/images/blogimg/start_cdh/cdh_s3.png" alt="Alt startcdh" /></p>
+<p><img src="http://xinqiyang.100intl.com/images/blogimg/start_cdh/cdh_s3.png" alt="Alt startcdh" /></p>
 
 <h1>结语</h1>
 
@@ -1298,9 +1298,9 @@ Translation: 翻译的一些文章</p>
   
   <entry>
     <title type="html"><![CDATA[markdown learn]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/07/markdown-learn/"/>
     <updated>2013-11-07T09:52:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/07/markdown-learn</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/07/markdown-learn</id>
     <content type="html"><![CDATA[<h1>为什么要学</h1>
 
 <p>从github上学习到很多,慢慢的感觉Markdown很流行,就发了点时间把自己的Github Page捣鼓成一个blog了,用了Octopress搭建了一个,然后用了最近很喜欢的BootStrap3的主题,看过去感觉还是很赞的.<br/>
@@ -1379,7 +1379,7 @@ Translation: 翻译的一些文章</p>
 <p>连接是用<a href=""></a>来隔开的. 如果有title则在里面加上tital &hellip;.
 这里是一个连接 <a href="http://freeflare.com" title="freeflare">freeflare</a> 这个是一个行内链接.
 如果是相对路径可以使用<br/>
-这个是个内部连接<a href="http://xinqiyang.freeflare.com/about/">internal</a> 这个是个内部的连接..
+这个是个内部连接<a href="http://xinqiyang.100intl.com/about/">internal</a> 这个是个内部的连接..
 如果是新窗口打开链接的话,得如何实现呢?</p>
 
 <h3>强调内容</h3>
@@ -1425,9 +1425,9 @@ Translation: 翻译的一些文章</p>
   
   <entry>
     <title type="html"><![CDATA[blog update]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/05/blog-update/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/05/blog-update/"/>
     <updated>2013-11-05T19:14:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/05/blog-update</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/05/blog-update</id>
     <content type="html"><![CDATA[<p>this is my github blog, I will write more aritcle thoses days!</p>
 
 <p>work hard!</p>
@@ -1436,9 +1436,9 @@ Translation: 翻译的一些文章</p>
   
   <entry>
     <title type="html"><![CDATA[first]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/05/first/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/05/first/"/>
     <updated>2013-11-05T18:47:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/05/first</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/05/first</id>
     <content type="html"><![CDATA[<p>This is My first blog .
 Hi, I am xinqiyang.</p>
 ]]></content>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: blog | Xinqiyang's Blog]]></title>
-  <link href="http://xinqiyang.freeflare.com/blog/categories/blog/atom.xml" rel="self"/>
-  <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2014-08-27T11:22:46+09:00</updated>
-  <id>http://xinqiyang.freeflare.com/</id>
+  <link href="http://xinqiyang.100intl.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.100intl.com/"/>
+  <updated>2014-08-27T11:26:06+09:00</updated>
+  <id>http://xinqiyang.100intl.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
     <email><![CDATA[xinqiyang@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[倒腾啊倒腾]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/07/04/dao-teng-a-dao-teng/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/07/04/dao-teng-a-dao-teng/"/>
     <updated>2014-07-04T02:01:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/07/04/dao-teng-a-dao-teng</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/07/04/dao-teng-a-dao-teng</id>
     <content type="html"><![CDATA[<h3>诸事不顺</h3>
 
 <p>最近倒腾啊,自从升级到了最新版本的yosemite之后,这台mac就无法写blog了,憋了好久的了,终于可以来写一篇了.
@@ -29,9 +29,9 @@
   
   <entry>
     <title type="html"><![CDATA[2014年展望]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/01/16/2014nian-zhan-wang/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/01/16/2014nian-zhan-wang/"/>
     <updated>2014-01-16T10:45:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/01/16/2014nian-zhan-wang</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/01/16/2014nian-zhan-wang</id>
     <content type="html"><![CDATA[<h1>展望2014年</h1>
 
 <p>2013年,匆匆的过去了,2014年已经来了,今年想学些什么,做些什么呢?</p>
@@ -73,9 +73,9 @@
   
   <entry>
     <title type="html"><![CDATA[迟到的年终总结2013]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013/"/>
     <updated>2014-01-08T18:38:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013</id>
+    <id>http://xinqiyang.100intl.com/blog/2014/01/08/chi-dao-de-nian-zhong-zong-jie-2013</id>
     <content type="html"><![CDATA[<h1>迟到的年终总结(2013)</h1>
 
 <p>元旦放假去了趟澳洲回来,就一直忙碌到现在,本来年底的事情就比较多,更是特别坑的事情多. <br/>
@@ -124,9 +124,9 @@
   
   <entry>
     <title type="html"><![CDATA[一些好用的IOS App]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/13/my-ios-app/"/>
     <updated>2013-11-13T23:25:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/13/my-ios-app</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/13/my-ios-app</id>
     <content type="html"><![CDATA[<p>记录下一些感觉好用的APP,软件不用很多,够用就好了.
 其他的也会陆续的记录在这里,好用的软件真的挺多的</p>
 
@@ -170,9 +170,9 @@ brew   就不用说了,自动安装mac下的那些库的相关软件.也是很�
   
   <entry>
     <title type="html"><![CDATA[碎碎念]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/13/sui-sui-nian/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/13/sui-sui-nian/"/>
     <updated>2013-11-13T16:21:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/13/sui-sui-nian</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/13/sui-sui-nian</id>
     <content type="html"><![CDATA[<h1>絮叨下,所以起名叫碎碎念</h1>
 
 <p>又重新开始写博客了,从2000年开始都不知道换了多少个博客了,自己的博客也搭建了好几个,但是现在深受github的影响,就又重新开始写blog了.</p>

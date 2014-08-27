@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: bigdata | Xinqiyang's Blog]]></title>
-  <link href="http://xinqiyang.freeflare.com/blog/categories/bigdata/atom.xml" rel="self"/>
-  <link href="http://xinqiyang.freeflare.com/"/>
-  <updated>2014-08-27T11:22:46+09:00</updated>
-  <id>http://xinqiyang.freeflare.com/</id>
+  <link href="http://xinqiyang.100intl.com/blog/categories/bigdata/atom.xml" rel="self"/>
+  <link href="http://xinqiyang.100intl.com/"/>
+  <updated>2014-08-27T11:26:06+09:00</updated>
+  <id>http://xinqiyang.100intl.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
     <email><![CDATA[xinqiyang@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[spark on yarn 学习(一)]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/12/11/spark-on-yarn/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/12/11/spark-on-yarn/"/>
     <updated>2013-12-11T13:48:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/12/11/spark-on-yarn</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/12/11/spark-on-yarn</id>
     <content type="html"><![CDATA[<p>最近看到明风的关于数据挖掘平台下实用Spark和Yarn来做推荐的PPT,感觉很赞,现在基于大数据和快速计算方面技术的发展很快,随着Apache基金会上发布的一个个项目,感觉真的新技术将会不断出现在大家的面前.</p>
 
 <p>作为技术发烧友,作为一个看客,来围观下,不过从PPT中列出来的技术来看,未来的发展趋势还是说是有的,而且还是很有发展前景的. 现在Spark和Yarn也就发布2年多的时间,随着社区力量的跟上,不断的将之前的项目都放到一个更好的资源架构的整合上来实现.特别是放到内存上来实现,在速度和效率上还是确实有区别于之前的其他技术.所以作为巨头之一的淘宝,就跟上的技术发展的趋势了.但是作为小公司而言,没有这样的大规模的机器部署的情况下,如何用利用好这些技术呢?</p>
@@ -84,9 +84,9 @@ Spark的生态圈 <br/>
   
   <entry>
     <title type="html"><![CDATA[start CDH4.4]]></title>
-    <link href="http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4/"/>
+    <link href="http://xinqiyang.100intl.com/blog/2013/11/07/start-cdh4-dot-4/"/>
     <updated>2013-11-07T16:46:00+09:00</updated>
-    <id>http://xinqiyang.freeflare.com/blog/2013/11/07/start-cdh4-dot-4</id>
+    <id>http://xinqiyang.100intl.com/blog/2013/11/07/start-cdh4-dot-4</id>
     <content type="html"><![CDATA[<h1>前言</h1>
 
 <p>对于hadoop,hbase由于项目紧张原因好几个月没有时间认真的来总结下了,最近有一些空,就来继续的把项目中用到的一些技术实际的写出来,动动手,好久没有写东西了,都生疏了,说起hadoop,公司还在用相对比较古老的hadoop &amp;&amp; hbase 0.20.* 级别的老版本了,这点充分说明日本人不想折腾,能跑的就好,针对企业用户最主要的是稳定,而且访问量也不是很大,所以关注的不多,但是对于技术发烧友的我来说,当然想尝试新的版本的了,从去年开始就一直关注hadoop2 的beta版本,现在虽然说发布了一个稳定版本,但是大部分还是在沿用老版本,本次说的版本是cloudera公司的 CDH4.4 ,目前最新的稳定版本,本次的目的是想把现有的一些应用迁移到新版本上,而不是在基础的安装和了解.</p>
