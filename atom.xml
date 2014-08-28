@@ -4,7 +4,7 @@
   <title><![CDATA[Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.100intl.com/atom.xml" rel="self"/>
   <link href="http://xinqiyang.100intl.com/"/>
-  <updated>2014-08-27T11:53:12+09:00</updated>
+  <updated>2014-08-29T07:18:11+09:00</updated>
   <id>http://xinqiyang.100intl.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[喜欢和工作之间的抉择]]></title>
+    <link href="http://xinqiyang.100intl.com/blog/2014/08/29/xi-huan-he-gong-zuo-zhi-jian-de-jue-ze/"/>
+    <updated>2014-08-29T07:02:00+09:00</updated>
+    <id>http://xinqiyang.100intl.com/blog/2014/08/29/xi-huan-he-gong-zuo-zhi-jian-de-jue-ze</id>
+    <content type="html"><![CDATA[<p>已经不能很久没有写博了,这个口头禅了.其实忙忙碌碌中隐隐的想把想说的都写出来,可是却不知道如何表述了. <br/>
+今天和同事聊起来日本的经历,同在一个公司,同在一个组,或者是都是认识的,回国了或者是去美国的了. <br/>
+今年走的人特别的多,但是自己依旧在这里原地踏步,由于种种原因不能自由,但是自己的内心又渴望着自由.  <br/>
+就在这样的混沌中,日复一日的过着.憧憬着哪天能改变这个生活,其实做个平凡的人就好了.  <br/>
+看身边的日本人,在公司勤勤恳恳的干了许多年,然后协力会社的人确实走走换换,这个可能就是民族性的差别吧.</p>
+
+<p>感慨许多,就来写一篇.</p>
+
+<h3>小公司技术者的悲哀</h3>
+
+<p>作为技术者,有自己追求的方向,然而在实际的生活中,确要为了工作而委曲求全.     <br/>
+特别是在小公司,因为需要应对不同的客户的不同需求,同时得会各种语言,会各种技术,不管是前端,还是后端.都得会,这样就造成强大的压力,学一段时间这个学一段时间那个,但是都不精.而且个个方面虽然都有经验,但是都是皮毛而已.</p>
+
+<h3>追求极致是对是错</h3>
+
+<p>天下武功,唯快不破. 这句我感觉强调的是一个快,我也是如此,所以我很喜欢nginx的快,我很喜欢lua的简洁和快,redis更是如此,一个主要开发者,但是写出来的东西都很赞,也很好用.所以我很喜欢这些组件下构造出来的业务场景,但是实际使用的过程中,其实我只是在自己的项目中使用而已,在平常的工作中,依旧用php/java/ruby等语言,每天开发着公司交代下来的活.</p>
+
+<h3>大数据的感觉</h3>
+
+<p>在大数据的圈子里面混了2年多了,也小有点感觉,但是现在还是陷在hadoop/hbase的圈子里面,但是现在业界发展可是真心的快,特别是spark,感觉自己跟不上了.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Good Github]]></title>
