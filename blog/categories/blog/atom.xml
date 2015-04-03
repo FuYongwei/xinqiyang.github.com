@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.100intl.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://xinqiyang.100intl.com/"/>
-  <updated>2014-09-30T03:22:22+09:00</updated>
+  <updated>2015-04-03T19:11:48+09:00</updated>
   <id>http://xinqiyang.100intl.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[新语言和新技术的选择]]></title>
+    <link href="http://xinqiyang.100intl.com/blog/2015/04/03/xin-yu-yan-he-xin-ji-zhu-de-xuan-ze/"/>
+    <updated>2015-04-03T19:01:00+09:00</updated>
+    <id>http://xinqiyang.100intl.com/blog/2015/04/03/xin-yu-yan-he-xin-ji-zhu-de-xuan-ze</id>
+    <content type="html"><![CDATA[<h1>前言</h1>
+
+<p>最近新的解决方案日新月异,很多商业公司和创业公司作为推手,搞出了很多新东西,这点从github上就能看出来了,新东西何其多. <br/>
+对于语言各个商业公司都有自己的主打语言比如现在google有自己的go语言,twitter的后台大部分在用scala,还有erlang啊啥的,听的比较多,但是实际用的还是很少,而且各自有各自的优势.
+作为迷茫的码农,还是想学一部分东西把他学精了,而不是就随着项目,做一些东西,就做一些东西.</p>
+
+<h1>新语言</h1>
+
+<p>现在主流的几个语言的比较,个人比较感兴趣的有: <br/>
+Go  这个作为主打语言,现在有很多公司跟进,包也在不断完善,而且也有一些商业化的应用.</p>
+
+<p>Scala  这个作为现在大数据方向的一个比较主要的语言,也有很多人在学在用,现在主流的spark就是用scala写的.</p>
+
+<p>Swift  这个是苹果公司退出的新语言,实际上没咋个用过,不过随着苹果的推广,应该会越来的越好的.</p>
+
+<p>ErLang 这个看阿里那帮人用的还是比较多,具体没有深入接触过 .</p>
+
+<p>R      这个语言也有一些朋友在用,主要用于统计方面的,具体也没接触过.</p>
+
+<h1>如何选择</h1>
+
+<p>如何选择呢?
+个人兴趣, 喜欢哪个用那个,这个是个人兴趣决定的.
+公司工作</p>
+
+<h1>结语</h1>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[倒腾啊倒腾]]></title>
@@ -165,46 +199,6 @@ brew   就不用说了,自动安装mac下的那些库的相关软件.也是很�
 <p>FreeFlare</p>
 
 <p>咕咚运动,这个今天测试了竟然有bug,发布到微信朋友圈里面,无法加载到具体的跑步信息.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[碎碎念]]></title>
-    <link href="http://xinqiyang.100intl.com/blog/2013/11/13/sui-sui-nian/"/>
-    <updated>2013-11-13T16:21:00+09:00</updated>
-    <id>http://xinqiyang.100intl.com/blog/2013/11/13/sui-sui-nian</id>
-    <content type="html"><![CDATA[<h1>絮叨下,所以起名叫碎碎念</h1>
-
-<p>又重新开始写博客了,从2000年开始都不知道换了多少个博客了,自己的博客也搭建了好几个,但是现在深受github的影响,就又重新开始写blog了.</p>
-
-<p>其实很多时候,都没有地方倾诉自己的想法,博客正好能将自己的想法写出来!</p>
-
-<p>重新开始写后,从TODOLIST中挑出一些有意思的文章来写,这样每天的乐趣也仅此于此了.</p>
-
-<p>上班之间,耍耍微博,看下订阅,现在看的越来越来了,都在完善自己的项目,下班之后,更是&hellip;<br/>
-一天之中,如果都忙起来的话,很快就度过了&hellip;.</p>
-
-<p>所以在一天之中,是否能留一些什么下来,那就是文字&hellip;.</p>
-
-<p>此前这半年没有怎么写博客是因为都把写的东西放到evernote上了,很多东西不好意思发出来,也就慢慢的沉寂了&hellip;</p>
-
-<p>从博客园到现在的github的博客,主要的好处是,不用浏览器想写就写,和提交代码一样,很符合大家的习惯,所以用的人就越来越多了&hellip;</p>
-
-<p>今天修复了下分类,还有加入了版权声明,加入了TODOLIST,发现每天都能在上面捣鼓些什么.</p>
-
-<p>今天到此了,整理下接下来博客的分类吧.</p>
-
-<p>Life: 一些絮叨 <br/>
-Tech: 一些技术文章,最近对于lua,redis,nginx的一些实用心得得总结下了.<br/>
-BigData: 一些大数据下的使用  <br/>
-OpenSource: 这里是自己的一些开源项目介绍<br/>
-Product: 产品观念<br/>
-Business: 关于事业和金融方面的,做一些笔记 <br/>
-Japanese: 关于日语的一些文章<br/>
-English: 写一些关于英语的 <br/>
-Translation: 翻译的一些文章</p>
-
-<p>这些就够了吧&hellip;&hellip;已经很多了.</p>
 ]]></content>
   </entry>
   

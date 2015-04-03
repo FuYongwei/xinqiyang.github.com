@@ -4,7 +4,7 @@
   <title><![CDATA[Xinqiyang's Blog]]></title>
   <link href="http://xinqiyang.100intl.com/atom.xml" rel="self"/>
   <link href="http://xinqiyang.100intl.com/"/>
-  <updated>2014-09-30T03:22:22+09:00</updated>
+  <updated>2015-04-03T19:11:48+09:00</updated>
   <id>http://xinqiyang.100intl.com/</id>
   <author>
     <name><![CDATA[xinqiyang]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[新语言和新技术的选择]]></title>
+    <link href="http://xinqiyang.100intl.com/blog/2015/04/03/xin-yu-yan-he-xin-ji-zhu-de-xuan-ze/"/>
+    <updated>2015-04-03T19:01:00+09:00</updated>
+    <id>http://xinqiyang.100intl.com/blog/2015/04/03/xin-yu-yan-he-xin-ji-zhu-de-xuan-ze</id>
+    <content type="html"><![CDATA[<h1>前言</h1>
+
+<p>最近新的解决方案日新月异,很多商业公司和创业公司作为推手,搞出了很多新东西,这点从github上就能看出来了,新东西何其多. <br/>
+对于语言各个商业公司都有自己的主打语言比如现在google有自己的go语言,twitter的后台大部分在用scala,还有erlang啊啥的,听的比较多,但是实际用的还是很少,而且各自有各自的优势.
+作为迷茫的码农,还是想学一部分东西把他学精了,而不是就随着项目,做一些东西,就做一些东西.</p>
+
+<h1>新语言</h1>
+
+<p>现在主流的几个语言的比较,个人比较感兴趣的有: <br/>
+Go  这个作为主打语言,现在有很多公司跟进,包也在不断完善,而且也有一些商业化的应用.</p>
+
+<p>Scala  这个作为现在大数据方向的一个比较主要的语言,也有很多人在学在用,现在主流的spark就是用scala写的.</p>
+
+<p>Swift  这个是苹果公司退出的新语言,实际上没咋个用过,不过随着苹果的推广,应该会越来的越好的.</p>
+
+<p>ErLang 这个看阿里那帮人用的还是比较多,具体没有深入接触过 .</p>
+
+<p>R      这个语言也有一些朋友在用,主要用于统计方面的,具体也没接触过.</p>
+
+<h1>如何选择</h1>
+
+<p>如何选择呢?
+个人兴趣, 喜欢哪个用那个,这个是个人兴趣决定的.
+公司工作</p>
+
+<h1>结语</h1>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[东京IT技术沙龙]]></title>
@@ -1509,17 +1543,6 @@ Translation: 翻译的一些文章</p>
 就是感觉用这个写又回到了用vim写代码的感觉的了.不过还是很赞&hellip;.出来的排版效果还是挺不错的.</p>
 
 <p>简单就是好!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[blog update]]></title>
-    <link href="http://xinqiyang.100intl.com/blog/2013/11/05/blog-update/"/>
-    <updated>2013-11-05T19:14:00+09:00</updated>
-    <id>http://xinqiyang.100intl.com/blog/2013/11/05/blog-update</id>
-    <content type="html"><![CDATA[<p>this is my github blog, I will write more aritcle thoses days!</p>
-
-<p>work hard!</p>
 ]]></content>
   </entry>
   
